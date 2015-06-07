@@ -82,7 +82,7 @@ gnb = GaussianNB()
 y_pred = gnb.fit(data, target).predict(data)
 
 print("overall precision:   %f " % (1 - (float(((target != y_pred).sum()))/float(num_of_data))))
-phase = 0
+phase = 4
 print ("precision and recall on phase %d:" % phase )
 print calc(phase)
 
