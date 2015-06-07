@@ -36,21 +36,21 @@ def calc(phase):
 
 
 num_of_data = 0
-for i in glob.glob("./*.txt"):
+for i in glob.glob("./diffbd/*.txt"):
 	f = open(i, "r")
 	try:
 		x = json.load(f)
 	except:
 		continue
 	num_of_data += 1
-for i in glob.glob("./*.json"):
+for i in glob.glob("./diffbd/*.json"):
 	num_of_data += 1
 data = np.zeros((num_of_data, 3))
 target = np.zeros(num_of_data)
 ind = 0
 print num_of_data
 #load data
-for i in glob.glob("./*.txt"):
+for i in glob.glob("./diffbd/*.txt"):
 	f = open(i, "r")
 	try:
 		x = json.load(f)
@@ -64,9 +64,9 @@ for i in glob.glob("./*.txt"):
 		
 	data[ind][0] = x['size']
 	data[ind][1] = x['rtt']
-	data[ind][2] = i[2:6]
+	data[ind][2] = i[9:13]
 	ind  = ind + 1
-for i in glob.glob("./*.json"):
+for i in glob.glob("./diffbd/*.json"):
 	f = open(i,"r")
 	x = json.load(f)
 	data[ind][0] = x['rtt*size']

@@ -9,15 +9,16 @@ def updateJsonFile(json_file, data):
     jsonFile.close()
 
 def convert():
-    for i in os.listdir(os.getcwd()):
-        if i.endswith(".txt"):
+    for ii in os.listdir(os.getcwd()):
+        i = os.path.join(ii, "diffbd")
+	if i.endswith(".txt"):
             f = open(i, "r")
             remove_extension = string.strip(i, ".txt")
             print i 
 	
             x = json.load(f)
             f.close()
-            new_name = "converted_%st.json" % remove_extension
+            new_name = "diffbd/%st.json" % remove_extension
             d = {}
             d["num_urls"] = int(math.ceil((len(x) - 2) / 2))
             d["latency"] = x["latency"]
