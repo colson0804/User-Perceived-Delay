@@ -1,0 +1,1 @@
+{"latency": 11.6516008, "avg_size1": 0, "avg_size0": 632, "avg_size3": 2270, "avg_size2": 1102, "avg_rtt4": 0.022105600000000003, "avg_size4": 6978, "avg_rtt1": 0.0014464, "avg_rtt0": 0.0213826, "avg_rtt3": 0.0240386, "avg_rtt2": 0.0205754, "time": 16}

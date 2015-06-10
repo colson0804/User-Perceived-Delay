@@ -1,0 +1,12 @@
+{"files" : [{"rtt":0.020439,
+"size":948,
+"num urls":6,
+"latency":12.419645},
+{"rtt":0.001621,
+"size":0,
+"num urls":5,
+"latency":12.419646},
+{"rtt":0.022477,
+"size":3612,
+"num urls":84,
+"latency":4.697298}] }
