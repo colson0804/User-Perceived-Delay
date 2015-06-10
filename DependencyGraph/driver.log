@@ -1,0 +1,1302 @@
+2015-05-03 14:55:25,136 DEBUG repated visit http://www.sohu.com.cn for 15 times with proxy
+2015-05-03 14:55:25,136 DEBUG Start visiting web page http://www.sohu.com.cn for 15 times...
+2015-05-03 14:55:28,014 DEBUG   start running mitmproxy
+2015-05-03 14:55:28,014 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_0 10""
+2015-05-03 14:55:31,023 DEBUG successfully run mitmproxy with pid 5865 
+2015-05-03 14:55:31,024 DEBUG   start browsing 0 time and store to file SOHU_0
+2015-05-03 14:56:33,304 ERROR error [SOHU_0] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 14:56:33,546 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 14:56:35,582 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 14:56:37,585 DEBUG   start running mitmproxy
+2015-05-03 14:56:37,585 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_1 10""
+2015-05-03 14:56:40,596 DEBUG successfully run mitmproxy with pid 5890 
+2015-05-03 14:56:40,596 DEBUG   start browsing 1 time and store to file SOHU_1
+2015-05-03 14:57:17,739 DEBUG   done browsing 1 time and store to file SOHU_1
+2015-05-03 14:57:19,762 DEBUG   done terminating mitmproxy
+2015-05-03 14:57:21,763 DEBUG   start running mitmproxy
+2015-05-03 14:57:21,763 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_2 10""
+2015-05-03 14:57:24,770 DEBUG successfully run mitmproxy with pid 5907 
+2015-05-03 14:57:24,771 DEBUG   start browsing 2 time and store to file SOHU_2
+2015-05-03 14:58:26,963 ERROR error [SOHU_2] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 14:58:27,175 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 14:58:29,201 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 14:58:31,206 DEBUG   start running mitmproxy
+2015-05-03 14:58:31,207 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_3 10""
+2015-05-03 14:58:34,211 DEBUG successfully run mitmproxy with pid 5932 
+2015-05-03 14:58:34,211 DEBUG   start browsing 3 time and store to file SOHU_3
+2015-05-03 14:58:54,265 DEBUG   done browsing 3 time and store to file SOHU_3
+2015-05-03 14:58:56,286 DEBUG   done terminating mitmproxy
+2015-05-03 14:58:58,287 DEBUG   start running mitmproxy
+2015-05-03 14:58:58,287 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_4 10""
+2015-05-03 14:59:01,292 DEBUG successfully run mitmproxy with pid 5941 
+2015-05-03 14:59:01,293 DEBUG   start browsing 4 time and store to file SOHU_4
+2015-05-03 15:00:03,487 ERROR error [SOHU_4] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 15:00:03,713 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 15:00:05,745 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 15:00:07,745 DEBUG   start running mitmproxy
+2015-05-03 15:00:07,746 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_5 10""
+2015-05-03 15:00:10,754 DEBUG successfully run mitmproxy with pid 5963 
+2015-05-03 15:00:10,754 DEBUG   start browsing 5 time and store to file SOHU_5
+2015-05-03 15:01:12,939 ERROR error [SOHU_5] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 15:01:13,144 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 15:01:15,167 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 15:01:17,168 DEBUG   start running mitmproxy
+2015-05-03 15:01:17,168 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_6 10""
+2015-05-03 15:01:20,172 DEBUG successfully run mitmproxy with pid 5986 
+2015-05-03 15:01:20,172 DEBUG   start browsing 6 time and store to file SOHU_6
+2015-05-03 15:02:22,365 ERROR error [SOHU_6] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 15:02:22,579 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 15:02:24,613 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 15:02:26,614 DEBUG   start running mitmproxy
+2015-05-03 15:02:26,614 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_7 10""
+2015-05-03 15:02:29,618 DEBUG successfully run mitmproxy with pid 6009 
+2015-05-03 15:02:29,618 DEBUG   start browsing 7 time and store to file SOHU_7
+2015-05-03 15:03:31,809 ERROR error [SOHU_7] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 15:03:32,026 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 15:03:34,046 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 15:03:36,046 DEBUG   start running mitmproxy
+2015-05-03 15:03:36,047 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_8 10""
+2015-05-03 15:03:39,052 DEBUG successfully run mitmproxy with pid 6033 
+2015-05-03 15:03:39,052 DEBUG   start browsing 8 time and store to file SOHU_8
+2015-05-03 15:04:41,278 ERROR error [SOHU_8] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 15:04:41,492 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 15:04:43,520 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 15:04:45,520 DEBUG   start running mitmproxy
+2015-05-03 15:04:45,522 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_9 10""
+2015-05-03 15:04:48,526 DEBUG successfully run mitmproxy with pid 6056 
+2015-05-03 15:04:48,527 DEBUG   start browsing 9 time and store to file SOHU_9
+2015-05-03 15:05:13,846 DEBUG   done browsing 9 time and store to file SOHU_9
+2015-05-03 15:05:15,884 DEBUG   done terminating mitmproxy
+2015-05-03 15:05:17,885 DEBUG   start running mitmproxy
+2015-05-03 15:05:17,885 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_10 10""
+2015-05-03 15:05:20,891 DEBUG successfully run mitmproxy with pid 6067 
+2015-05-03 15:05:20,891 DEBUG   start browsing 10 time and store to file SOHU_10
+2015-05-03 15:06:23,095 ERROR error [SOHU_10] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 15:06:23,298 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 15:06:25,317 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 15:06:27,318 DEBUG   start running mitmproxy
+2015-05-03 15:06:27,318 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_11 10""
+2015-05-03 15:06:30,322 DEBUG successfully run mitmproxy with pid 6090 
+2015-05-03 15:06:30,323 DEBUG   start browsing 11 time and store to file SOHU_11
+2015-05-03 15:07:32,531 ERROR error [SOHU_11] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpY00KWy/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 15:07:32,749 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 15:07:34,770 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 15:07:36,772 DEBUG   start running mitmproxy
+2015-05-03 15:07:36,772 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_12 10""
+2015-05-03 15:07:39,779 DEBUG successfully run mitmproxy with pid 6115 
+2015-05-03 15:07:39,779 DEBUG   start browsing 12 time and store to file SOHU_12
+2015-05-03 15:08:04,720 DEBUG   done browsing 12 time and store to file SOHU_12
+2015-05-03 15:08:06,792 DEBUG   done terminating mitmproxy
+2015-05-03 15:08:08,792 DEBUG   start running mitmproxy
+2015-05-03 15:08:08,793 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_13 10""
+2015-05-03 15:08:11,796 DEBUG successfully run mitmproxy with pid 6127 
+2015-05-03 15:08:11,797 DEBUG   start browsing 13 time and store to file SOHU_13
+2015-05-03 15:08:47,387 DEBUG   done browsing 13 time and store to file SOHU_13
+2015-05-03 15:08:49,415 DEBUG   done terminating mitmproxy
+2015-05-03 15:08:51,420 DEBUG   start running mitmproxy
+2015-05-03 15:08:51,420 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com.cn none ./logs SOHU_14 10""
+2015-05-03 15:08:54,425 DEBUG successfully run mitmproxy with pid 6143 
+2015-05-03 15:08:54,425 DEBUG   start browsing 14 time and store to file SOHU_14
+2015-05-03 15:09:12,970 DEBUG   done browsing 14 time and store to file SOHU_14
+2015-05-03 15:09:14,996 DEBUG   done terminating mitmproxy
+2015-05-03 15:27:16,790 DEBUG repated visit http://www.sohu.com for 15 times with proxy
+2015-05-03 15:27:16,790 DEBUG Start visiting web page http://www.sohu.com for 15 times...
+2015-05-03 15:27:19,650 DEBUG   start running mitmproxy
+2015-05-03 15:27:19,651 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_0 10""
+2015-05-03 15:27:22,654 DEBUG successfully run mitmproxy with pid 6543 
+2015-05-03 15:27:22,654 DEBUG   start browsing 0 time and store to file SOHU_0
+2015-05-03 15:28:24,972 ERROR error [SOHU_0] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpJwYfDZ/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpJwYfDZ/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpJwYfDZ/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpJwYfDZ/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 15:28:25,278 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 15:28:27,320 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 15:28:29,321 DEBUG   start running mitmproxy
+2015-05-03 15:28:29,322 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_1 10""
+2015-05-03 15:28:32,327 DEBUG successfully run mitmproxy with pid 6571 
+2015-05-03 15:28:32,328 DEBUG   start browsing 1 time and store to file SOHU_1
+2015-05-03 15:30:18,085 DEBUG repated visit http://www.yahoo.com for 15 times with proxy
+2015-05-03 15:30:18,085 DEBUG Start visiting web page http://www.yahoo.com for 15 times...
+2015-05-03 15:30:20,840 DEBUG   start running mitmproxy
+2015-05-03 15:30:20,841 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_0 10""
+2015-05-03 15:30:23,849 DEBUG successfully run mitmproxy with pid 6629 
+2015-05-03 15:30:23,849 DEBUG   start browsing 0 time and store to file YAHOO_0
+2015-05-03 15:30:29,513 DEBUG   done browsing 0 time and store to file YAHOO_0
+2015-05-03 15:30:31,562 DEBUG   done terminating mitmproxy
+2015-05-03 15:30:33,565 DEBUG   start running mitmproxy
+2015-05-03 15:30:33,565 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_1 10""
+2015-05-03 15:30:36,573 DEBUG successfully run mitmproxy with pid 6637 
+2015-05-03 15:30:36,574 DEBUG   start browsing 1 time and store to file YAHOO_1
+2015-05-03 15:30:42,025 DEBUG   done browsing 1 time and store to file YAHOO_1
+2015-05-03 15:30:44,057 DEBUG   done terminating mitmproxy
+2015-05-03 15:30:46,063 DEBUG   start running mitmproxy
+2015-05-03 15:30:46,063 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_2 10""
+2015-05-03 15:30:49,068 DEBUG successfully run mitmproxy with pid 6644 
+2015-05-03 15:30:49,068 DEBUG   start browsing 2 time and store to file YAHOO_2
+2015-05-03 15:30:54,271 DEBUG   done browsing 2 time and store to file YAHOO_2
+2015-05-03 15:30:56,325 DEBUG   done terminating mitmproxy
+2015-05-03 15:30:58,326 DEBUG   start running mitmproxy
+2015-05-03 15:30:58,327 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_3 10""
+2015-05-03 15:31:01,331 DEBUG successfully run mitmproxy with pid 6649 
+2015-05-03 15:31:01,331 DEBUG   start browsing 3 time and store to file YAHOO_3
+2015-05-03 15:31:23,638 DEBUG   done browsing 3 time and store to file YAHOO_3
+2015-05-03 15:31:25,678 DEBUG   done terminating mitmproxy
+2015-05-03 15:31:27,683 DEBUG   start running mitmproxy
+2015-05-03 15:31:27,684 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_4 10""
+2015-05-03 15:31:30,688 DEBUG successfully run mitmproxy with pid 6660 
+2015-05-03 15:31:30,689 DEBUG   start browsing 4 time and store to file YAHOO_4
+2015-05-03 15:31:36,291 DEBUG   done browsing 4 time and store to file YAHOO_4
+2015-05-03 15:31:38,314 DEBUG   done terminating mitmproxy
+2015-05-03 15:31:40,318 DEBUG   start running mitmproxy
+2015-05-03 15:31:40,318 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_5 10""
+2015-05-03 15:31:43,327 DEBUG successfully run mitmproxy with pid 6666 
+2015-05-03 15:31:43,327 DEBUG   start browsing 5 time and store to file YAHOO_5
+2015-05-03 15:31:49,084 DEBUG   done browsing 5 time and store to file YAHOO_5
+2015-05-03 15:31:51,123 DEBUG   done terminating mitmproxy
+2015-05-03 15:31:53,128 DEBUG   start running mitmproxy
+2015-05-03 15:31:53,128 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_6 10""
+2015-05-03 15:31:56,133 DEBUG successfully run mitmproxy with pid 6674 
+2015-05-03 15:31:56,134 DEBUG   start browsing 6 time and store to file YAHOO_6
+2015-05-03 15:32:01,491 DEBUG   done browsing 6 time and store to file YAHOO_6
+2015-05-03 15:32:03,551 DEBUG   done terminating mitmproxy
+2015-05-03 15:32:05,553 DEBUG   start running mitmproxy
+2015-05-03 15:32:05,553 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_7 10""
+2015-05-03 15:32:08,562 DEBUG successfully run mitmproxy with pid 6681 
+2015-05-03 15:32:08,563 DEBUG   start browsing 7 time and store to file YAHOO_7
+2015-05-03 15:33:10,765 ERROR error [YAHOO_7] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpQb3MGU/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpQb3MGU/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpQb3MGU/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpQb3MGU/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 15:33:10,943 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 15:33:12,966 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 15:33:14,971 DEBUG   start running mitmproxy
+2015-05-03 15:33:14,972 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_8 10""
+2015-05-03 15:33:17,978 DEBUG successfully run mitmproxy with pid 6705 
+2015-05-03 15:33:17,979 DEBUG   start browsing 8 time and store to file YAHOO_8
+2015-05-03 15:33:40,362 DEBUG   done browsing 8 time and store to file YAHOO_8
+2015-05-03 15:33:42,404 DEBUG   done terminating mitmproxy
+2015-05-03 15:33:44,408 DEBUG   start running mitmproxy
+2015-05-03 15:33:44,409 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_9 10""
+2015-05-03 15:33:47,418 DEBUG successfully run mitmproxy with pid 6719 
+2015-05-03 15:33:47,418 DEBUG   start browsing 9 time and store to file YAHOO_9
+2015-05-03 15:34:09,409 DEBUG   done browsing 9 time and store to file YAHOO_9
+2015-05-03 15:34:11,439 DEBUG   done terminating mitmproxy
+2015-05-03 15:34:13,445 DEBUG   start running mitmproxy
+2015-05-03 15:34:13,445 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_10 10""
+2015-05-03 15:34:16,450 DEBUG successfully run mitmproxy with pid 6729 
+2015-05-03 15:34:16,450 DEBUG   start browsing 10 time and store to file YAHOO_10
+2015-05-03 15:34:21,806 DEBUG   done browsing 10 time and store to file YAHOO_10
+2015-05-03 15:34:23,851 DEBUG   done terminating mitmproxy
+2015-05-03 15:34:25,853 DEBUG   start running mitmproxy
+2015-05-03 15:34:25,854 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_11 10""
+2015-05-03 15:34:28,858 DEBUG successfully run mitmproxy with pid 6736 
+2015-05-03 15:34:28,859 DEBUG   start browsing 11 time and store to file YAHOO_11
+2015-05-03 15:34:52,226 DEBUG   done browsing 11 time and store to file YAHOO_11
+2015-05-03 15:34:54,251 DEBUG   done terminating mitmproxy
+2015-05-03 15:34:56,257 DEBUG   start running mitmproxy
+2015-05-03 15:34:56,257 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_12 10""
+2015-05-03 15:34:59,263 DEBUG successfully run mitmproxy with pid 6747 
+2015-05-03 15:34:59,264 DEBUG   start browsing 12 time and store to file YAHOO_12
+2015-05-03 15:35:04,914 DEBUG   done browsing 12 time and store to file YAHOO_12
+2015-05-03 15:35:06,943 DEBUG   done terminating mitmproxy
+2015-05-03 15:35:08,949 DEBUG   start running mitmproxy
+2015-05-03 15:35:08,949 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_13 10""
+2015-05-03 15:35:11,958 DEBUG successfully run mitmproxy with pid 6752 
+2015-05-03 15:35:11,959 DEBUG   start browsing 13 time and store to file YAHOO_13
+2015-05-03 15:35:34,545 DEBUG   done browsing 13 time and store to file YAHOO_13
+2015-05-03 15:35:36,571 DEBUG   done terminating mitmproxy
+2015-05-03 15:35:38,574 DEBUG   start running mitmproxy
+2015-05-03 15:35:38,574 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.yahoo.com none ./logs YAHOO_14 10""
+2015-05-03 15:35:41,583 DEBUG successfully run mitmproxy with pid 6763 
+2015-05-03 15:35:41,584 DEBUG   start browsing 14 time and store to file YAHOO_14
+2015-05-03 15:36:22,129 DEBUG   done browsing 14 time and store to file YAHOO_14
+2015-05-03 15:36:24,151 DEBUG   done terminating mitmproxy
+2015-05-03 15:49:11,227 DEBUG repated visit http://www.sohu.com for 10 times with proxy
+2015-05-03 15:49:11,227 DEBUG Start visiting web page http://www.sohu.com for 10 times...
+2015-05-03 15:49:24,686 DEBUG repated visit http://www.sohu.com for 10 times with proxy
+2015-05-03 15:49:24,686 DEBUG Start visiting web page http://www.sohu.com for 10 times...
+2015-05-03 15:49:27,461 DEBUG   start running mitmproxy
+2015-05-03 15:49:27,462 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_0 10""
+2015-05-03 15:49:30,467 ERROR failed to run mitmproxy 1
+2015-05-03 15:49:30,467 DEBUG   start browsing 0 time and store to file SOHU_0
+2015-05-03 15:50:32,756 ERROR error [SOHU_0] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpdYP3GM/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpdYP3GM/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpdYP3GM/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpdYP3GM/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 15:50:32,998 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 15:50:38,018 ERROR error HTTPConnectionPool(host='localhost', port=8080): Read timed out. (read timeout=5)
+2015-05-03 15:50:38,018 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 15:50:40,022 DEBUG   start running mitmproxy
+2015-05-03 15:50:40,022 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_1 10""
+2015-05-03 15:50:43,028 ERROR failed to run mitmproxy 1
+2015-05-03 15:50:43,028 DEBUG   start browsing 1 time and store to file SOHU_1
+2015-05-03 15:51:45,221 ERROR error [SOHU_1] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpdYP3GM/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpdYP3GM/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpdYP3GM/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpdYP3GM/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 15:51:45,396 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 15:51:50,405 ERROR error HTTPConnectionPool(host='localhost', port=8080): Read timed out. (read timeout=5)
+2015-05-03 15:51:50,405 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 15:51:52,409 DEBUG   start running mitmproxy
+2015-05-03 15:51:52,410 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_2 10""
+2015-05-03 15:51:55,414 ERROR failed to run mitmproxy 1
+2015-05-03 15:51:55,415 DEBUG   start browsing 2 time and store to file SOHU_2
+2015-05-03 15:52:57,633 ERROR error [SOHU_2] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpdYP3GM/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpdYP3GM/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpdYP3GM/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpdYP3GM/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 15:52:57,849 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 15:53:02,858 ERROR error HTTPConnectionPool(host='localhost', port=8080): Read timed out. (read timeout=5)
+2015-05-03 15:53:02,858 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 15:53:04,859 DEBUG   start running mitmproxy
+2015-05-03 15:53:04,860 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_3 10""
+2015-05-03 15:53:07,865 ERROR failed to run mitmproxy 1
+2015-05-03 15:53:07,866 DEBUG   start browsing 3 time and store to file SOHU_3
+2015-05-03 15:53:17,470 DEBUG repated visit http://www.sohu.com for 10 times with proxy
+2015-05-03 15:53:17,470 DEBUG Start visiting web page http://www.sohu.com for 10 times...
+2015-05-03 15:53:20,282 DEBUG   start running mitmproxy
+2015-05-03 15:53:20,283 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_0 10""
+2015-05-03 15:53:23,288 ERROR failed to run mitmproxy 1
+2015-05-03 15:53:23,289 DEBUG   start browsing 0 time and store to file SOHU_0
+2015-05-03 15:54:25,564 ERROR error [SOHU_0] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 15:54:25,841 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 15:54:30,861 ERROR error HTTPConnectionPool(host='localhost', port=8080): Read timed out. (read timeout=5)
+2015-05-03 15:54:30,861 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 15:54:32,862 DEBUG   start running mitmproxy
+2015-05-03 15:54:32,863 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_1 10""
+2015-05-03 15:54:35,867 ERROR failed to run mitmproxy 1
+2015-05-03 15:54:35,867 DEBUG   start browsing 1 time and store to file SOHU_1
+2015-05-03 15:54:37,882 ERROR error [SOHU_1] in repeatedVisitWebPage reason: Message: Window not found. The browser window may have been closed.
+Stacktrace:
+    at nsCommandProcessor.prototype.execute (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/command-processor.js:12343)
+    at Dispatcher.executeAs/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:9061)
+    at Resource.prototype.handle (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:9208)
+    at Dispatcher.prototype.dispatch (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:9155)
+    at WebDriverServer/<.handle (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:12128)
+    at createHandlerFunc/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/httpd.js:2058)
+    at ServerHandler.prototype.handleResponse (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/httpd.js:2391)
+    at Connection.prototype.process (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/httpd.js:1227)
+    at RequestReader.prototype._handleResponse (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/httpd.js:1681)
+    at RequestReader.prototype._processBody (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/httpd.js:1529)
+    at RequestReader.prototype.onInputStreamReady (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpBihWKD/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/httpd.js:1397). start cleaning states...
+2015-05-03 16:03:21,681 DEBUG repated visit http://www.sohu.com for 10 times with proxy
+2015-05-03 16:03:21,681 DEBUG Start visiting web page http://www.sohu.com for 10 times...
+2015-05-03 16:03:24,487 DEBUG   start running mitmproxy
+2015-05-03 16:03:24,488 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_0 10""
+2015-05-03 16:03:27,493 DEBUG successfully run mitmproxy with pid 7432 
+2015-05-03 16:03:27,493 DEBUG   start browsing 0 time and store to file SOHU_0
+2015-05-03 16:03:58,820 DEBUG   done browsing 0 time and store to file SOHU_0
+2015-05-03 16:04:00,881 DEBUG   done terminating mitmproxy
+2015-05-03 16:04:02,885 DEBUG   start running mitmproxy
+2015-05-03 16:04:02,885 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_1 10""
+2015-05-03 16:04:05,891 DEBUG successfully run mitmproxy with pid 7447 
+2015-05-03 16:04:05,891 DEBUG   start browsing 1 time and store to file SOHU_1
+2015-05-03 16:05:08,076 ERROR error [SOHU_1] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 16:05:08,266 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 16:05:10,285 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 16:05:12,285 DEBUG   start running mitmproxy
+2015-05-03 16:05:12,285 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_2 10""
+2015-05-03 16:05:15,292 DEBUG successfully run mitmproxy with pid 7471 
+2015-05-03 16:05:15,292 DEBUG   start browsing 2 time and store to file SOHU_2
+2015-05-03 16:06:17,471 ERROR error [SOHU_2] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 16:06:17,682 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 16:06:19,716 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 16:06:21,719 DEBUG   start running mitmproxy
+2015-05-03 16:06:21,720 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_3 10""
+2015-05-03 16:06:24,724 DEBUG successfully run mitmproxy with pid 7494 
+2015-05-03 16:06:24,725 DEBUG   start browsing 3 time and store to file SOHU_3
+2015-05-03 16:06:41,899 DEBUG   done browsing 3 time and store to file SOHU_3
+2015-05-03 16:06:43,923 DEBUG   done terminating mitmproxy
+2015-05-03 16:06:45,924 DEBUG   start running mitmproxy
+2015-05-03 16:06:45,924 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_4 10""
+2015-05-03 16:06:48,929 DEBUG successfully run mitmproxy with pid 7505 
+2015-05-03 16:06:48,930 DEBUG   start browsing 4 time and store to file SOHU_4
+2015-05-03 16:07:51,132 ERROR error [SOHU_4] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 16:07:51,325 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 16:07:53,355 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 16:07:55,356 DEBUG   start running mitmproxy
+2015-05-03 16:07:55,357 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_5 10""
+2015-05-03 16:07:58,362 DEBUG successfully run mitmproxy with pid 7526 
+2015-05-03 16:07:58,362 DEBUG   start browsing 5 time and store to file SOHU_5
+2015-05-03 16:09:00,594 ERROR error [SOHU_5] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 16:09:00,835 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 16:09:02,871 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 16:09:04,877 DEBUG   start running mitmproxy
+2015-05-03 16:09:04,877 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_6 10""
+2015-05-03 16:09:07,884 DEBUG successfully run mitmproxy with pid 7552 
+2015-05-03 16:09:07,884 DEBUG   start browsing 6 time and store to file SOHU_6
+2015-05-03 16:10:10,101 ERROR error [SOHU_6] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 16:10:10,268 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 16:10:12,325 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 16:10:14,327 DEBUG   start running mitmproxy
+2015-05-03 16:10:14,327 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_7 10""
+2015-05-03 16:10:17,336 DEBUG successfully run mitmproxy with pid 7580 
+2015-05-03 16:10:17,336 DEBUG   start browsing 7 time and store to file SOHU_7
+2015-05-03 16:11:19,540 ERROR error [SOHU_7] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 16:11:19,759 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 16:11:21,786 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 16:11:23,791 DEBUG   start running mitmproxy
+2015-05-03 16:11:23,792 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_8 10""
+2015-05-03 16:11:26,797 DEBUG successfully run mitmproxy with pid 7604 
+2015-05-03 16:11:26,797 DEBUG   start browsing 8 time and store to file SOHU_8
+2015-05-03 16:12:28,999 ERROR error [SOHU_8] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/25/k1kbzvyj15x2bnfzfj4f_dw40000gn/T/tmpDCLS0K/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-03 16:12:29,211 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-03 16:12:31,233 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-03 16:12:33,236 DEBUG   start running mitmproxy
+2015-05-03 16:12:33,236 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.sohu.com none ./logs SOHU_9 10""
+2015-05-03 16:12:36,243 DEBUG successfully run mitmproxy with pid 7629 
+2015-05-03 16:12:36,243 DEBUG   start browsing 9 time and store to file SOHU_9
+2015-05-03 16:12:52,896 DEBUG   done browsing 9 time and store to file SOHU_9
+2015-05-03 16:12:54,941 DEBUG   done terminating mitmproxy
+2015-05-08 10:22:25,405 DEBUG repated visit  for 15 times with proxy
+2015-05-08 10:22:25,406 DEBUG Start visiting web page  for 15 times...
+2015-05-08 10:22:28,684 DEBUG   start running mitmproxy
+2015-05-08 10:22:28,685 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _0 10""
+2015-05-08 10:22:31,693 ERROR failed to run mitmproxy 1
+2015-05-08 10:22:31,694 DEBUG   start browsing 0 time and store to file _0
+2015-05-08 10:22:34,346 DEBUG   done browsing 0 time and store to file _0
+2015-05-08 10:22:34,365 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:22:34,366 DEBUG   done terminating mitmproxy
+2015-05-08 10:22:36,370 DEBUG   start running mitmproxy
+2015-05-08 10:22:36,370 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _1 10""
+2015-05-08 10:23:11,740 DEBUG repated visit http://www.wsj.com for 15 times with proxy
+2015-05-08 10:23:11,740 DEBUG Start visiting web page http://www.wsj.com for 15 times...
+2015-05-08 10:23:14,512 DEBUG   start running mitmproxy
+2015-05-08 10:23:14,513 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_0 10""
+2015-05-08 10:23:17,517 DEBUG successfully run mitmproxy with pid 12317 
+2015-05-08 10:23:17,517 DEBUG   start browsing 0 time and store to file WSJ_0
+2015-05-08 10:23:22,910 DEBUG   done browsing 0 time and store to file WSJ_0
+2015-05-08 10:23:24,947 DEBUG   done terminating mitmproxy
+2015-05-08 10:23:26,953 DEBUG   start running mitmproxy
+2015-05-08 10:23:26,953 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_1 10""
+2015-05-08 10:23:29,960 DEBUG successfully run mitmproxy with pid 12322 
+2015-05-08 10:23:29,961 DEBUG   start browsing 1 time and store to file WSJ_1
+2015-05-08 10:23:35,783 DEBUG   done browsing 1 time and store to file WSJ_1
+2015-05-08 10:23:37,816 DEBUG   done terminating mitmproxy
+2015-05-08 10:23:39,819 DEBUG   start running mitmproxy
+2015-05-08 10:23:39,819 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_2 10""
+2015-05-08 10:23:42,825 DEBUG successfully run mitmproxy with pid 12331 
+2015-05-08 10:23:42,826 DEBUG   start browsing 2 time and store to file WSJ_2
+2015-05-08 10:23:48,530 DEBUG   done browsing 2 time and store to file WSJ_2
+2015-05-08 10:23:50,554 DEBUG   done terminating mitmproxy
+2015-05-08 10:23:52,557 DEBUG   start running mitmproxy
+2015-05-08 10:23:52,558 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_3 10""
+2015-05-08 10:23:55,567 DEBUG successfully run mitmproxy with pid 12336 
+2015-05-08 10:23:55,568 DEBUG   start browsing 3 time and store to file WSJ_3
+2015-05-08 10:24:01,190 DEBUG   done browsing 3 time and store to file WSJ_3
+2015-05-08 10:24:03,228 DEBUG   done terminating mitmproxy
+2015-05-08 10:24:05,233 DEBUG   start running mitmproxy
+2015-05-08 10:24:05,233 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_4 10""
+2015-05-08 10:24:08,241 DEBUG successfully run mitmproxy with pid 12341 
+2015-05-08 10:24:08,242 DEBUG   start browsing 4 time and store to file WSJ_4
+2015-05-08 10:24:14,603 DEBUG   done browsing 4 time and store to file WSJ_4
+2015-05-08 10:24:16,628 DEBUG   done terminating mitmproxy
+2015-05-08 10:24:18,633 DEBUG   start running mitmproxy
+2015-05-08 10:24:18,634 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_5 10""
+2015-05-08 10:24:21,643 DEBUG successfully run mitmproxy with pid 12346 
+2015-05-08 10:24:21,644 DEBUG   start browsing 5 time and store to file WSJ_5
+2015-05-08 10:24:27,844 DEBUG   done browsing 5 time and store to file WSJ_5
+2015-05-08 10:24:29,876 DEBUG   done terminating mitmproxy
+2015-05-08 10:24:31,881 DEBUG   start running mitmproxy
+2015-05-08 10:24:31,882 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_6 10""
+2015-05-08 10:24:34,890 DEBUG successfully run mitmproxy with pid 12354 
+2015-05-08 10:24:34,891 DEBUG   start browsing 6 time and store to file WSJ_6
+2015-05-08 10:24:40,787 DEBUG   done browsing 6 time and store to file WSJ_6
+2015-05-08 10:24:42,845 DEBUG   done terminating mitmproxy
+2015-05-08 10:24:44,846 DEBUG   start running mitmproxy
+2015-05-08 10:24:44,846 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_7 10""
+2015-05-08 10:24:47,852 DEBUG successfully run mitmproxy with pid 12359 
+2015-05-08 10:24:47,852 DEBUG   start browsing 7 time and store to file WSJ_7
+2015-05-08 10:24:54,000 DEBUG   done browsing 7 time and store to file WSJ_7
+2015-05-08 10:24:56,028 DEBUG   done terminating mitmproxy
+2015-05-08 10:24:58,033 DEBUG   start running mitmproxy
+2015-05-08 10:24:58,034 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_8 10""
+2015-05-08 10:25:01,043 DEBUG successfully run mitmproxy with pid 12367 
+2015-05-08 10:25:01,043 DEBUG   start browsing 8 time and store to file WSJ_8
+2015-05-08 10:25:09,066 DEBUG   done browsing 8 time and store to file WSJ_8
+2015-05-08 10:25:11,093 DEBUG   done terminating mitmproxy
+2015-05-08 10:25:13,098 DEBUG   start running mitmproxy
+2015-05-08 10:25:13,098 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_9 10""
+2015-05-08 10:25:16,107 DEBUG successfully run mitmproxy with pid 12377 
+2015-05-08 10:25:16,108 DEBUG   start browsing 9 time and store to file WSJ_9
+2015-05-08 10:25:22,111 DEBUG   done browsing 9 time and store to file WSJ_9
+2015-05-08 10:25:24,148 DEBUG   done terminating mitmproxy
+2015-05-08 10:25:26,148 DEBUG   start running mitmproxy
+2015-05-08 10:25:26,149 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_10 10""
+2015-05-08 10:25:29,158 DEBUG successfully run mitmproxy with pid 12382 
+2015-05-08 10:25:29,159 DEBUG   start browsing 10 time and store to file WSJ_10
+2015-05-08 10:25:34,976 DEBUG   done browsing 10 time and store to file WSJ_10
+2015-05-08 10:25:37,003 DEBUG   done terminating mitmproxy
+2015-05-08 10:25:39,008 DEBUG   start running mitmproxy
+2015-05-08 10:25:39,009 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_11 10""
+2015-05-08 10:25:42,016 DEBUG successfully run mitmproxy with pid 12387 
+2015-05-08 10:25:42,016 DEBUG   start browsing 11 time and store to file WSJ_11
+2015-05-08 10:25:48,796 DEBUG   done browsing 11 time and store to file WSJ_11
+2015-05-08 10:25:50,818 DEBUG   done terminating mitmproxy
+2015-05-08 10:25:52,823 DEBUG   start running mitmproxy
+2015-05-08 10:25:52,823 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_12 10""
+2015-05-08 10:25:55,828 DEBUG successfully run mitmproxy with pid 12395 
+2015-05-08 10:25:55,829 DEBUG   start browsing 12 time and store to file WSJ_12
+2015-05-08 10:26:02,270 DEBUG   done browsing 12 time and store to file WSJ_12
+2015-05-08 10:26:04,297 DEBUG   done terminating mitmproxy
+2015-05-08 10:26:06,303 DEBUG   start running mitmproxy
+2015-05-08 10:26:06,303 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_13 10""
+2015-05-08 10:26:09,311 DEBUG successfully run mitmproxy with pid 12400 
+2015-05-08 10:26:09,312 DEBUG   start browsing 13 time and store to file WSJ_13
+2015-05-08 10:26:14,808 DEBUG   done browsing 13 time and store to file WSJ_13
+2015-05-08 10:26:16,837 DEBUG   done terminating mitmproxy
+2015-05-08 10:26:18,843 DEBUG   start running mitmproxy
+2015-05-08 10:26:18,843 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_14 10""
+2015-05-08 10:26:21,849 DEBUG successfully run mitmproxy with pid 12405 
+2015-05-08 10:26:21,850 DEBUG   start browsing 14 time and store to file WSJ_14
+2015-05-08 10:26:27,411 DEBUG   done browsing 14 time and store to file WSJ_14
+2015-05-08 10:26:29,439 DEBUG   done terminating mitmproxy
+2015-05-08 10:30:13,883 DEBUG repated visit  for 15 times with proxy
+2015-05-08 10:30:13,883 DEBUG Start visiting web page  for 15 times...
+2015-05-08 10:30:16,729 DEBUG   start running mitmproxy
+2015-05-08 10:30:16,730 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _0 10""
+2015-05-08 10:30:19,735 ERROR failed to run mitmproxy 1
+2015-05-08 10:30:19,736 DEBUG   start browsing 0 time and store to file _0
+2015-05-08 10:30:22,421 DEBUG   done browsing 0 time and store to file _0
+2015-05-08 10:30:22,436 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:30:22,436 DEBUG   done terminating mitmproxy
+2015-05-08 10:30:24,441 DEBUG   start running mitmproxy
+2015-05-08 10:30:24,442 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _1 10""
+2015-05-08 10:30:27,448 ERROR failed to run mitmproxy 1
+2015-05-08 10:30:27,449 DEBUG   start browsing 1 time and store to file _1
+2015-05-08 10:30:30,042 DEBUG   done browsing 1 time and store to file _1
+2015-05-08 10:30:30,045 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:30:30,045 DEBUG   done terminating mitmproxy
+2015-05-08 10:30:32,046 DEBUG   start running mitmproxy
+2015-05-08 10:30:32,047 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _2 10""
+2015-05-08 10:30:35,051 ERROR failed to run mitmproxy 1
+2015-05-08 10:30:35,051 DEBUG   start browsing 2 time and store to file _2
+2015-05-08 10:30:37,569 DEBUG   done browsing 2 time and store to file _2
+2015-05-08 10:30:37,572 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:30:37,572 DEBUG   done terminating mitmproxy
+2015-05-08 10:30:39,577 DEBUG   start running mitmproxy
+2015-05-08 10:30:39,578 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _3 10""
+2015-05-08 10:30:42,587 ERROR failed to run mitmproxy 1
+2015-05-08 10:30:42,588 DEBUG   start browsing 3 time and store to file _3
+2015-05-08 10:30:45,042 DEBUG   done browsing 3 time and store to file _3
+2015-05-08 10:30:45,045 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:30:45,045 DEBUG   done terminating mitmproxy
+2015-05-08 10:30:47,051 DEBUG   start running mitmproxy
+2015-05-08 10:30:47,051 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _4 10""
+2015-05-08 10:30:50,060 ERROR failed to run mitmproxy 1
+2015-05-08 10:30:50,061 DEBUG   start browsing 4 time and store to file _4
+2015-05-08 10:30:52,649 DEBUG   done browsing 4 time and store to file _4
+2015-05-08 10:30:52,653 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:30:52,653 DEBUG   done terminating mitmproxy
+2015-05-08 10:30:54,654 DEBUG   start running mitmproxy
+2015-05-08 10:30:54,654 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _5 10""
+2015-05-08 10:30:57,663 ERROR failed to run mitmproxy 1
+2015-05-08 10:30:57,664 DEBUG   start browsing 5 time and store to file _5
+2015-05-08 10:31:00,102 DEBUG   done browsing 5 time and store to file _5
+2015-05-08 10:31:00,105 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:31:00,106 DEBUG   done terminating mitmproxy
+2015-05-08 10:31:02,111 DEBUG   start running mitmproxy
+2015-05-08 10:31:02,111 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _6 10""
+2015-05-08 10:31:05,116 ERROR failed to run mitmproxy 1
+2015-05-08 10:31:05,116 DEBUG   start browsing 6 time and store to file _6
+2015-05-08 10:31:07,596 DEBUG   done browsing 6 time and store to file _6
+2015-05-08 10:31:07,600 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:31:07,600 DEBUG   done terminating mitmproxy
+2015-05-08 10:31:09,603 DEBUG   start running mitmproxy
+2015-05-08 10:31:09,604 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _7 10""
+2015-05-08 10:31:12,613 ERROR failed to run mitmproxy 1
+2015-05-08 10:31:12,614 DEBUG   start browsing 7 time and store to file _7
+2015-05-08 10:31:15,138 DEBUG   done browsing 7 time and store to file _7
+2015-05-08 10:31:15,141 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:31:15,142 DEBUG   done terminating mitmproxy
+2015-05-08 10:31:17,143 DEBUG   start running mitmproxy
+2015-05-08 10:31:17,144 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _8 10""
+2015-05-08 10:31:20,152 ERROR failed to run mitmproxy 1
+2015-05-08 10:31:20,153 DEBUG   start browsing 8 time and store to file _8
+2015-05-08 10:31:22,699 DEBUG   done browsing 8 time and store to file _8
+2015-05-08 10:31:22,703 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:31:22,703 DEBUG   done terminating mitmproxy
+2015-05-08 10:31:24,708 DEBUG   start running mitmproxy
+2015-05-08 10:31:24,709 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _9 10""
+2015-05-08 10:31:27,718 ERROR failed to run mitmproxy 1
+2015-05-08 10:31:27,718 DEBUG   start browsing 9 time and store to file _9
+2015-05-08 10:31:30,184 DEBUG   done browsing 9 time and store to file _9
+2015-05-08 10:31:30,188 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:31:30,188 DEBUG   done terminating mitmproxy
+2015-05-08 10:31:32,189 DEBUG   start running mitmproxy
+2015-05-08 10:31:32,189 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _10 10""
+2015-05-08 10:31:35,195 ERROR failed to run mitmproxy 1
+2015-05-08 10:31:35,195 DEBUG   start browsing 10 time and store to file _10
+2015-05-08 10:31:37,717 DEBUG   done browsing 10 time and store to file _10
+2015-05-08 10:31:37,722 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:31:37,722 DEBUG   done terminating mitmproxy
+2015-05-08 10:31:39,723 DEBUG   start running mitmproxy
+2015-05-08 10:31:39,724 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _11 10""
+2015-05-08 10:31:42,733 ERROR failed to run mitmproxy 1
+2015-05-08 10:31:42,734 DEBUG   start browsing 11 time and store to file _11
+2015-05-08 10:31:45,247 DEBUG   done browsing 11 time and store to file _11
+2015-05-08 10:31:45,251 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:31:45,251 DEBUG   done terminating mitmproxy
+2015-05-08 10:31:47,254 DEBUG   start running mitmproxy
+2015-05-08 10:31:47,255 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _12 10""
+2015-05-08 10:31:50,258 ERROR failed to run mitmproxy 1
+2015-05-08 10:31:50,259 DEBUG   start browsing 12 time and store to file _12
+2015-05-08 10:31:52,626 DEBUG   done browsing 12 time and store to file _12
+2015-05-08 10:31:52,630 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:31:52,630 DEBUG   done terminating mitmproxy
+2015-05-08 10:31:54,632 DEBUG   start running mitmproxy
+2015-05-08 10:31:54,632 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _13 10""
+2015-05-08 10:31:57,639 ERROR failed to run mitmproxy 1
+2015-05-08 10:31:57,639 DEBUG   start browsing 13 time and store to file _13
+2015-05-08 10:31:59,991 DEBUG   done browsing 13 time and store to file _13
+2015-05-08 10:31:59,995 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(61, 'Connection refused')))
+2015-05-08 10:31:59,995 DEBUG   done terminating mitmproxy
+2015-05-08 10:32:02,000 DEBUG   start running mitmproxy
+2015-05-08 10:32:02,001 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py  none ./logs _14 10""
+2015-05-08 10:32:05,005 ERROR failed to run mitmproxy 1
+2015-05-08 10:32:05,006 DEBUG   start browsing 14 time and store to file _14
+2015-05-08 10:35:02,453 DEBUG repated visit http://www.wsj.com for 15 times with proxy
+2015-05-08 10:35:02,453 DEBUG Start visiting web page http://www.wsj.com for 15 times...
+2015-05-08 10:35:05,261 DEBUG   start running mitmproxy
+2015-05-08 10:35:05,261 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_0 10""
+2015-05-08 10:35:08,267 DEBUG successfully run mitmproxy with pid 12675 
+2015-05-08 10:35:08,268 DEBUG   start browsing 0 time and store to file WSJ_0
+2015-05-08 10:35:42,385 DEBUG   done browsing 0 time and store to file WSJ_0
+2015-05-08 10:35:44,424 DEBUG   done terminating mitmproxy
+2015-05-08 10:35:46,430 DEBUG   start running mitmproxy
+2015-05-08 10:35:46,430 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_1 10""
+2015-05-08 10:35:49,435 DEBUG successfully run mitmproxy with pid 12690 
+2015-05-08 10:35:49,436 DEBUG   start browsing 1 time and store to file WSJ_1
+2015-05-08 10:36:16,404 DEBUG   done browsing 1 time and store to file WSJ_1
+2015-05-08 10:36:18,436 DEBUG   done terminating mitmproxy
+2015-05-08 10:36:20,442 DEBUG   start running mitmproxy
+2015-05-08 10:36:20,442 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_2 10""
+2015-05-08 10:36:23,451 DEBUG successfully run mitmproxy with pid 12707 
+2015-05-08 10:36:23,452 DEBUG   start browsing 2 time and store to file WSJ_2
+2015-05-08 10:36:49,301 DEBUG   done browsing 2 time and store to file WSJ_2
+2015-05-08 10:36:51,340 DEBUG   done terminating mitmproxy
+2015-05-08 10:36:53,345 DEBUG   start running mitmproxy
+2015-05-08 10:36:53,346 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_3 10""
+2015-05-08 10:36:56,355 DEBUG successfully run mitmproxy with pid 12723 
+2015-05-08 10:36:56,355 DEBUG   start browsing 3 time and store to file WSJ_3
+2015-05-08 10:37:21,581 DEBUG   done browsing 3 time and store to file WSJ_3
+2015-05-08 10:37:23,636 DEBUG   done terminating mitmproxy
+2015-05-08 10:37:25,642 DEBUG   start running mitmproxy
+2015-05-08 10:37:25,643 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_4 10""
+2015-05-08 10:37:28,648 DEBUG successfully run mitmproxy with pid 12736 
+2015-05-08 10:37:28,648 DEBUG   start browsing 4 time and store to file WSJ_4
+2015-05-08 10:38:30,830 ERROR error [WSJ_4] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///tmp/tmpyqdZP3/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///tmp/tmpyqdZP3/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///tmp/tmpyqdZP3/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmpyqdZP3/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-08 10:38:31,037 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-08 10:38:33,094 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-08 10:38:35,099 DEBUG   start running mitmproxy
+2015-05-08 10:38:35,099 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_5 10""
+2015-05-08 10:38:38,109 DEBUG successfully run mitmproxy with pid 12760 
+2015-05-08 10:38:38,109 DEBUG   start browsing 5 time and store to file WSJ_5
+2015-05-08 10:39:03,804 DEBUG   done browsing 5 time and store to file WSJ_5
+2015-05-08 10:39:05,825 DEBUG   done terminating mitmproxy
+2015-05-08 10:39:07,825 DEBUG   start running mitmproxy
+2015-05-08 10:39:07,826 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_6 10""
+2015-05-08 10:39:10,832 DEBUG successfully run mitmproxy with pid 12772 
+2015-05-08 10:39:10,833 DEBUG   start browsing 6 time and store to file WSJ_6
+2015-05-08 10:39:35,614 DEBUG   done browsing 6 time and store to file WSJ_6
+2015-05-08 10:39:37,639 DEBUG   done terminating mitmproxy
+2015-05-08 10:39:39,644 DEBUG   start running mitmproxy
+2015-05-08 10:39:39,644 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_7 10""
+2015-05-08 10:39:42,653 DEBUG successfully run mitmproxy with pid 12788 
+2015-05-08 10:39:42,654 DEBUG   start browsing 7 time and store to file WSJ_7
+2015-05-08 10:40:08,005 DEBUG   done browsing 7 time and store to file WSJ_7
+2015-05-08 10:40:10,031 DEBUG   done terminating mitmproxy
+2015-05-08 10:40:12,036 DEBUG   start running mitmproxy
+2015-05-08 10:40:12,036 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_8 10""
+2015-05-08 10:40:15,045 DEBUG successfully run mitmproxy with pid 12799 
+2015-05-08 10:40:15,045 DEBUG   start browsing 8 time and store to file WSJ_8
+2015-05-08 10:40:33,268 DEBUG   done browsing 8 time and store to file WSJ_8
+2015-05-08 10:40:35,298 DEBUG   done terminating mitmproxy
+2015-05-08 10:40:37,302 DEBUG   start running mitmproxy
+2015-05-08 10:40:37,303 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_9 10""
+2015-05-08 10:40:40,308 DEBUG successfully run mitmproxy with pid 12807 
+2015-05-08 10:40:40,308 DEBUG   start browsing 9 time and store to file WSJ_9
+2015-05-08 10:40:47,136 DEBUG   done browsing 9 time and store to file WSJ_9
+2015-05-08 10:40:49,169 DEBUG   done terminating mitmproxy
+2015-05-08 10:40:51,174 DEBUG   start running mitmproxy
+2015-05-08 10:40:51,175 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_10 10""
+2015-05-08 10:40:54,183 DEBUG successfully run mitmproxy with pid 12815 
+2015-05-08 10:40:54,184 DEBUG   start browsing 10 time and store to file WSJ_10
+2015-05-08 10:45:57,946 DEBUG repated visit http://www.wsj.com for 15 times with proxy
+2015-05-08 10:45:57,946 DEBUG Start visiting web page http://www.wsj.com for 15 times...
+2015-05-08 10:46:00,746 DEBUG   start running mitmproxy
+2015-05-08 10:46:00,747 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_0 10""
+2015-05-08 10:46:03,752 DEBUG successfully run mitmproxy with pid 12939 
+2015-05-08 10:46:03,752 DEBUG   start browsing 0 time and store to file WSJ_0
+2015-05-08 10:46:11,342 DEBUG   done browsing 0 time and store to file WSJ_0
+2015-05-08 10:46:13,382 DEBUG   done terminating mitmproxy
+2015-05-08 10:46:15,388 DEBUG   start running mitmproxy
+2015-05-08 10:46:15,388 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_1 10""
+2015-05-08 10:46:18,397 DEBUG successfully run mitmproxy with pid 12945 
+2015-05-08 10:46:18,398 DEBUG   start browsing 1 time and store to file WSJ_1
+2015-05-08 10:46:33,007 DEBUG   done browsing 1 time and store to file WSJ_1
+2015-05-08 10:46:35,083 DEBUG   done terminating mitmproxy
+2015-05-08 10:46:37,089 DEBUG   start running mitmproxy
+2015-05-08 10:46:37,089 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_2 10""
+2015-05-08 10:46:40,095 DEBUG successfully run mitmproxy with pid 12955 
+2015-05-08 10:46:40,096 DEBUG   start browsing 2 time and store to file WSJ_2
+2015-05-08 10:46:48,424 DEBUG   done browsing 2 time and store to file WSJ_2
+2015-05-08 10:46:50,501 DEBUG   done terminating mitmproxy
+2015-05-08 10:46:52,507 DEBUG   start running mitmproxy
+2015-05-08 10:46:52,507 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_3 10""
+2015-05-08 10:46:55,516 DEBUG successfully run mitmproxy with pid 12963 
+2015-05-08 10:46:55,517 DEBUG   start browsing 3 time and store to file WSJ_3
+2015-05-08 10:47:57,868 ERROR error [WSJ_3] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///tmp/tmpV5RxA3/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///tmp/tmpV5RxA3/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///tmp/tmpV5RxA3/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmpV5RxA3/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-08 10:47:58,069 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-08 10:48:00,097 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-08 10:48:02,098 DEBUG   start running mitmproxy
+2015-05-08 10:48:02,099 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_4 10""
+2015-05-08 10:48:05,108 DEBUG successfully run mitmproxy with pid 12986 
+2015-05-08 10:48:05,109 DEBUG   start browsing 4 time and store to file WSJ_4
+2015-05-08 10:48:14,372 DEBUG   done browsing 4 time and store to file WSJ_4
+2015-05-08 10:48:16,403 DEBUG   done terminating mitmproxy
+2015-05-08 10:48:18,409 DEBUG   start running mitmproxy
+2015-05-08 10:48:18,410 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_5 10""
+2015-05-08 10:48:21,419 DEBUG successfully run mitmproxy with pid 12994 
+2015-05-08 10:48:21,420 DEBUG   start browsing 5 time and store to file WSJ_5
+2015-05-08 10:48:29,253 DEBUG   done browsing 5 time and store to file WSJ_5
+2015-05-08 10:48:31,339 DEBUG   done terminating mitmproxy
+2015-05-08 10:48:33,342 DEBUG   start running mitmproxy
+2015-05-08 10:48:33,343 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_6 10""
+2015-05-08 10:48:36,352 DEBUG successfully run mitmproxy with pid 13002 
+2015-05-08 10:48:36,353 DEBUG   start browsing 6 time and store to file WSJ_6
+2015-05-08 10:48:43,076 DEBUG   done browsing 6 time and store to file WSJ_6
+2015-05-08 10:48:45,117 DEBUG   done terminating mitmproxy
+2015-05-08 10:48:47,122 DEBUG   start running mitmproxy
+2015-05-08 10:48:47,123 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_7 10""
+2015-05-08 10:48:50,133 DEBUG successfully run mitmproxy with pid 13007 
+2015-05-08 10:48:50,133 DEBUG   start browsing 7 time and store to file WSJ_7
+2015-05-08 10:48:58,906 DEBUG   done browsing 7 time and store to file WSJ_7
+2015-05-08 10:49:00,967 DEBUG   done terminating mitmproxy
+2015-05-08 10:49:02,972 DEBUG   start running mitmproxy
+2015-05-08 10:49:02,973 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_8 10""
+2015-05-08 10:49:05,982 DEBUG successfully run mitmproxy with pid 13015 
+2015-05-08 10:49:05,983 DEBUG   start browsing 8 time and store to file WSJ_8
+2015-05-08 10:49:29,502 DEBUG   done browsing 8 time and store to file WSJ_8
+2015-05-08 10:49:31,530 DEBUG   done terminating mitmproxy
+2015-05-08 10:49:33,531 DEBUG   start running mitmproxy
+2015-05-08 10:49:33,532 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_9 10""
+2015-05-08 10:49:36,540 DEBUG successfully run mitmproxy with pid 13026 
+2015-05-08 10:49:36,541 DEBUG   start browsing 9 time and store to file WSJ_9
+2015-05-08 10:50:18,145 DEBUG   done browsing 9 time and store to file WSJ_9
+2015-05-08 10:50:20,172 DEBUG   done terminating mitmproxy
+2015-05-08 10:50:22,178 DEBUG   start running mitmproxy
+2015-05-08 10:50:22,178 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_10 10""
+2015-05-08 10:50:25,184 DEBUG successfully run mitmproxy with pid 13043 
+2015-05-08 10:50:25,184 DEBUG   start browsing 10 time and store to file WSJ_10
+2015-05-08 10:50:50,165 DEBUG   done browsing 10 time and store to file WSJ_10
+2015-05-08 10:50:52,195 DEBUG   done terminating mitmproxy
+2015-05-08 10:50:54,200 DEBUG   start running mitmproxy
+2015-05-08 10:50:54,201 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_11 10""
+2015-05-08 10:50:57,206 DEBUG successfully run mitmproxy with pid 13056 
+2015-05-08 10:50:57,207 DEBUG   start browsing 11 time and store to file WSJ_11
+2015-05-08 10:51:04,885 DEBUG   done browsing 11 time and store to file WSJ_11
+2015-05-08 10:51:06,972 DEBUG   done terminating mitmproxy
+2015-05-08 10:51:08,977 DEBUG   start running mitmproxy
+2015-05-08 10:51:08,978 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_12 10""
+2015-05-08 10:51:11,987 DEBUG successfully run mitmproxy with pid 13065 
+2015-05-08 10:51:11,987 DEBUG   start browsing 12 time and store to file WSJ_12
+2015-05-08 10:51:19,339 DEBUG   done browsing 12 time and store to file WSJ_12
+2015-05-08 10:51:21,394 DEBUG   done terminating mitmproxy
+2015-05-08 10:51:23,394 DEBUG   start running mitmproxy
+2015-05-08 10:51:23,395 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_13 10""
+2015-05-08 10:51:26,401 DEBUG successfully run mitmproxy with pid 13073 
+2015-05-08 10:51:26,402 DEBUG   start browsing 13 time and store to file WSJ_13
+2015-05-08 10:51:53,314 DEBUG   done browsing 13 time and store to file WSJ_13
+2015-05-08 10:51:55,348 DEBUG   done terminating mitmproxy
+2015-05-08 10:51:57,353 DEBUG   start running mitmproxy
+2015-05-08 10:51:57,354 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com none ./logs WSJ_14 10""
+2015-05-08 10:52:00,363 DEBUG successfully run mitmproxy with pid 13086 
+2015-05-08 10:52:00,364 DEBUG   start browsing 14 time and store to file WSJ_14
+2015-05-08 10:52:58,449 DEBUG   done browsing 14 time and store to file WSJ_14
+2015-05-08 10:53:00,482 DEBUG   done terminating mitmproxy
+2015-05-08 10:54:17,150 DEBUG repated visit http://www.wsj.com/ for 5 times with proxy
+2015-05-08 10:54:17,150 DEBUG Start visiting web page http://www.wsj.com/ for 5 times...
+2015-05-08 10:54:19,983 DEBUG   start running mitmproxy
+2015-05-08 10:54:19,983 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com/ none ./logs WSJ_0 10""
+2015-05-08 10:54:26,668 DEBUG repated visit http://www.wsj.com/ for 5 times with proxy
+2015-05-08 10:54:26,668 DEBUG Start visiting web page http://www.wsj.com/ for 5 times...
+2015-05-08 10:54:29,472 DEBUG   start running mitmproxy
+2015-05-08 10:54:29,473 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com/ none ./logs WSJ_0 10""
+2015-05-08 10:54:32,478 DEBUG successfully run mitmproxy with pid 13178 
+2015-05-08 10:54:32,479 DEBUG   start browsing 0 time and store to file WSJ_0
+2015-05-08 10:54:40,356 DEBUG   done browsing 0 time and store to file WSJ_0
+2015-05-08 10:54:42,407 DEBUG   done terminating mitmproxy
+2015-05-08 10:54:44,408 DEBUG   start running mitmproxy
+2015-05-08 10:54:44,408 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com/ none ./logs WSJ_1 10""
+2015-05-08 10:54:47,418 DEBUG successfully run mitmproxy with pid 13187 
+2015-05-08 10:54:47,418 DEBUG   start browsing 1 time and store to file WSJ_1
+2015-05-08 10:54:54,101 DEBUG   done browsing 1 time and store to file WSJ_1
+2015-05-08 10:54:56,142 DEBUG   done terminating mitmproxy
+2015-05-08 10:54:58,147 DEBUG   start running mitmproxy
+2015-05-08 10:54:58,148 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com/ none ./logs WSJ_2 10""
+2015-05-08 10:55:01,152 DEBUG successfully run mitmproxy with pid 13192 
+2015-05-08 10:55:01,153 DEBUG   start browsing 2 time and store to file WSJ_2
+2015-05-08 10:55:08,313 DEBUG   done browsing 2 time and store to file WSJ_2
+2015-05-08 10:55:10,341 DEBUG   done terminating mitmproxy
+2015-05-08 10:55:12,344 DEBUG   start running mitmproxy
+2015-05-08 10:55:12,344 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com/ none ./logs WSJ_3 10""
+2015-05-08 10:55:15,354 DEBUG successfully run mitmproxy with pid 13200 
+2015-05-08 10:55:15,354 DEBUG   start browsing 3 time and store to file WSJ_3
+2015-05-08 10:55:22,260 DEBUG   done browsing 3 time and store to file WSJ_3
+2015-05-08 10:55:24,282 DEBUG   done terminating mitmproxy
+2015-05-08 10:55:26,287 DEBUG   start running mitmproxy
+2015-05-08 10:55:26,288 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com/ none ./logs WSJ_4 10""
+2015-05-08 10:55:29,297 DEBUG successfully run mitmproxy with pid 13205 
+2015-05-08 10:55:29,298 DEBUG   start browsing 4 time and store to file WSJ_4
+2015-05-08 10:55:37,007 DEBUG   done browsing 4 time and store to file WSJ_4
+2015-05-08 10:55:39,050 DEBUG   done terminating mitmproxy
+2015-05-08 10:56:24,403 DEBUG repated visit http://www.wsj.com/ for 5 times with proxy
+2015-05-08 10:56:24,404 DEBUG Start visiting web page http://www.wsj.com/ for 5 times...
+2015-05-08 10:56:27,204 DEBUG   start running mitmproxy
+2015-05-08 10:56:27,204 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com/ none ./logs WSJ_0 10""
+2015-05-08 10:56:30,213 DEBUG successfully run mitmproxy with pid 13255 
+2015-05-08 10:56:30,213 DEBUG   start browsing 0 time and store to file WSJ_0
+2015-05-08 10:56:54,672 DEBUG   done browsing 0 time and store to file WSJ_0
+2015-05-08 10:56:56,710 DEBUG   done terminating mitmproxy
+2015-05-08 10:56:58,714 DEBUG   start running mitmproxy
+2015-05-08 10:56:58,715 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com/ none ./logs WSJ_1 10""
+2015-05-08 10:57:01,721 DEBUG successfully run mitmproxy with pid 13268 
+2015-05-08 10:57:01,722 DEBUG   start browsing 1 time and store to file WSJ_1
+2015-05-08 10:57:44,000 DEBUG   done browsing 1 time and store to file WSJ_1
+2015-05-08 10:57:46,023 DEBUG   done terminating mitmproxy
+2015-05-08 10:57:48,026 DEBUG   start running mitmproxy
+2015-05-08 10:57:48,026 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com/ none ./logs WSJ_2 10""
+2015-05-08 10:57:51,033 DEBUG successfully run mitmproxy with pid 13285 
+2015-05-08 10:57:51,034 DEBUG   start browsing 2 time and store to file WSJ_2
+2015-05-08 10:57:58,062 DEBUG   done browsing 2 time and store to file WSJ_2
+2015-05-08 10:58:00,125 DEBUG   done terminating mitmproxy
+2015-05-08 10:58:02,126 DEBUG   start running mitmproxy
+2015-05-08 10:58:02,127 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com/ none ./logs WSJ_3 10""
+2015-05-08 10:58:05,134 DEBUG successfully run mitmproxy with pid 13293 
+2015-05-08 10:58:05,134 DEBUG   start browsing 3 time and store to file WSJ_3
+2015-05-08 10:58:13,657 DEBUG   done browsing 3 time and store to file WSJ_3
+2015-05-08 10:58:15,702 DEBUG   done terminating mitmproxy
+2015-05-08 10:58:17,707 DEBUG   start running mitmproxy
+2015-05-08 10:58:17,708 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.wsj.com/ none ./logs WSJ_4 10""
+2015-05-08 10:58:20,713 DEBUG successfully run mitmproxy with pid 13300 
+2015-05-08 10:58:20,714 DEBUG   start browsing 4 time and store to file WSJ_4
+2015-05-08 10:58:28,407 DEBUG   done browsing 4 time and store to file WSJ_4
+2015-05-08 10:58:30,474 DEBUG   done terminating mitmproxy
+2015-05-29 21:49:25,733 DEBUG repated visit http://www.cnn.com for 15 times with proxy
+2015-05-29 21:49:25,733 DEBUG Start visiting web page http://www.cnn.com for 15 times...
+2015-05-29 21:55:02,483 DEBUG repated visit http://www.cnn.com for 15 times with proxy
+2015-05-29 21:55:02,483 DEBUG Start visiting web page http://www.cnn.com for 15 times...
+2015-05-29 21:55:04,332 DEBUG   start running mitmproxy
+2015-05-29 21:55:04,332 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_0 10""
+2015-05-29 21:55:04,343 ERROR error runBackgroundProcess due to: [Errno 2] No such file or directory
+2015-05-29 21:55:07,347 ERROR error [CNN_0] in repeatedVisitWebPage reason: 'NoneType' object has no attribute 'poll'. start cleaning states...
+2015-05-29 21:55:07,614 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-29 21:55:07,628 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(111, 'Connection refused')))
+2015-05-30 23:18:56,324 DEBUG repated visit http://www.cnn.com for 15 times with proxy
+2015-05-30 23:18:56,325 DEBUG Start visiting web page http://www.cnn.com for 15 times...
+2015-05-30 23:18:58,192 DEBUG   start running mitmproxy
+2015-05-30 23:18:58,192 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_0 10""
+2015-05-30 23:18:58,200 ERROR error runBackgroundProcess due to: [Errno 2] No such file or directory
+2015-05-30 23:19:01,204 ERROR error [CNN_0] in repeatedVisitWebPage reason: 'NoneType' object has no attribute 'poll'. start cleaning states...
+2015-05-30 23:19:01,464 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-30 23:19:01,471 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(111, 'Connection refused')))
+2015-05-30 23:23:29,717 DEBUG repated visit http://www.cnn.com for 15 times with proxy
+2015-05-30 23:23:29,718 DEBUG Start visiting web page http://www.cnn.com for 15 times...
+2015-05-30 23:23:31,615 DEBUG   start running mitmproxy
+2015-05-30 23:23:31,616 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_0 10""
+2015-05-30 23:23:31,624 ERROR error runBackgroundProcess due to: [Errno 2] No such file or directory
+2015-05-30 23:23:34,628 ERROR error [CNN_0] in repeatedVisitWebPage reason: 'NoneType' object has no attribute 'poll'. start cleaning states...
+2015-05-30 23:23:34,856 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-30 23:23:34,878 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(111, 'Connection refused')))
+2015-05-30 23:26:19,173 DEBUG repated visit http://www.cnn.com for 15 times with proxy
+2015-05-30 23:26:19,174 DEBUG Start visiting web page http://www.cnn.com for 15 times...
+2015-05-30 23:26:21,101 DEBUG   start running mitmproxy
+2015-05-30 23:26:21,101 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_0 10""
+2015-05-30 23:26:21,110 ERROR error runBackgroundProcess due to: [Errno 2] No such file or directory
+2015-05-30 23:26:24,114 ERROR error [CNN_0] in repeatedVisitWebPage reason: 'NoneType' object has no attribute 'poll'. start cleaning states...
+2015-05-30 23:26:24,360 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-30 23:26:24,383 ERROR error HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: http://localhost/commands/exit (Caused by ProxyError('Cannot connect to proxy.', error(111, 'Connection refused')))
+2015-05-30 23:33:22,465 DEBUG repated visit http://www.cnn.com for 15 times with proxy
+2015-05-30 23:33:22,466 DEBUG Start visiting web page http://www.cnn.com for 15 times...
+2015-05-30 23:33:24,369 DEBUG   start running mitmproxy
+2015-05-30 23:33:24,369 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_0 10""
+2015-05-30 23:33:27,380 DEBUG successfully run mitmproxy with pid 7120 
+2015-05-30 23:33:27,380 DEBUG   start browsing 0 time and store to file CNN_0
+2015-05-30 23:33:55,902 DEBUG   done browsing 0 time and store to file CNN_0
+2015-05-30 23:33:58,022 DEBUG   done terminating mitmproxy
+2015-05-30 23:34:00,025 DEBUG   start running mitmproxy
+2015-05-30 23:34:00,026 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_1 10""
+2015-05-30 23:34:03,039 DEBUG successfully run mitmproxy with pid 7422 
+2015-05-30 23:34:03,039 DEBUG   start browsing 1 time and store to file CNN_1
+2015-05-30 23:34:33,881 DEBUG   done browsing 1 time and store to file CNN_1
+2015-05-30 23:34:36,005 DEBUG   done terminating mitmproxy
+2015-05-30 23:34:38,008 DEBUG   start running mitmproxy
+2015-05-30 23:34:38,008 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_2 10""
+2015-05-30 23:34:41,011 DEBUG successfully run mitmproxy with pid 7637 
+2015-05-30 23:34:41,012 DEBUG   start browsing 2 time and store to file CNN_2
+2015-05-30 23:34:54,302 DEBUG   done browsing 2 time and store to file CNN_2
+2015-05-30 23:34:56,454 DEBUG   done terminating mitmproxy
+2015-05-30 23:34:58,456 DEBUG   start running mitmproxy
+2015-05-30 23:34:58,456 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_3 10""
+2015-05-30 23:35:01,461 DEBUG successfully run mitmproxy with pid 7805 
+2015-05-30 23:35:01,462 DEBUG   start browsing 3 time and store to file CNN_3
+2015-05-30 23:36:03,921 ERROR error [CNN_3] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///tmp/tmpMdUxbA/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///tmp/tmpMdUxbA/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///tmp/tmpMdUxbA/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmpMdUxbA/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-30 23:36:05,041 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-30 23:36:07,238 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-30 23:36:09,241 DEBUG   start running mitmproxy
+2015-05-30 23:36:09,241 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_4 10""
+2015-05-30 23:36:12,246 DEBUG successfully run mitmproxy with pid 8976 
+2015-05-30 23:36:12,247 DEBUG   start browsing 4 time and store to file CNN_4
+2015-05-30 23:36:25,549 DEBUG   done browsing 4 time and store to file CNN_4
+2015-05-30 23:36:27,674 DEBUG   done terminating mitmproxy
+2015-05-30 23:36:29,675 DEBUG   start running mitmproxy
+2015-05-30 23:36:29,676 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_5 10""
+2015-05-30 23:36:32,681 DEBUG successfully run mitmproxy with pid 9123 
+2015-05-30 23:36:32,682 DEBUG   start browsing 5 time and store to file CNN_5
+2015-05-30 23:37:35,085 ERROR error [CNN_5] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///tmp/tmpMdUxbA/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///tmp/tmpMdUxbA/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///tmp/tmpMdUxbA/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmpMdUxbA/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-30 23:37:36,272 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-30 23:37:38,387 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-30 23:37:40,390 DEBUG   start running mitmproxy
+2015-05-30 23:37:40,390 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_6 10""
+2015-05-30 23:37:43,394 DEBUG successfully run mitmproxy with pid 9317 
+2015-05-30 23:37:43,395 DEBUG   start browsing 6 time and store to file CNN_6
+2015-05-30 23:37:56,123 DEBUG   done browsing 6 time and store to file CNN_6
+2015-05-30 23:37:58,258 DEBUG   done terminating mitmproxy
+2015-05-30 23:38:00,261 DEBUG   start running mitmproxy
+2015-05-30 23:38:00,261 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_7 10""
+2015-05-30 23:38:03,266 DEBUG successfully run mitmproxy with pid 9473 
+2015-05-30 23:38:03,266 DEBUG   start browsing 7 time and store to file CNN_7
+2015-05-30 23:38:14,841 DEBUG   done browsing 7 time and store to file CNN_7
+2015-05-30 23:38:16,960 DEBUG   done terminating mitmproxy
+2015-05-30 23:38:18,963 DEBUG   start running mitmproxy
+2015-05-30 23:38:18,963 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_8 10""
+2015-05-30 23:38:21,968 DEBUG successfully run mitmproxy with pid 9584 
+2015-05-30 23:38:21,968 DEBUG   start browsing 8 time and store to file CNN_8
+2015-05-30 23:38:38,444 DEBUG   done browsing 8 time and store to file CNN_8
+2015-05-30 23:38:40,556 DEBUG   done terminating mitmproxy
+2015-05-30 23:38:42,559 DEBUG   start running mitmproxy
+2015-05-30 23:38:42,559 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_9 10""
+2015-05-30 23:38:45,564 DEBUG successfully run mitmproxy with pid 9740 
+2015-05-30 23:38:45,564 DEBUG   start browsing 9 time and store to file CNN_9
+2015-05-30 23:38:59,488 DEBUG   done browsing 9 time and store to file CNN_9
+2015-05-30 23:39:01,602 DEBUG   done terminating mitmproxy
+2015-05-30 23:39:03,605 DEBUG   start running mitmproxy
+2015-05-30 23:39:03,605 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_10 10""
+2015-05-30 23:39:06,610 DEBUG successfully run mitmproxy with pid 9847 
+2015-05-30 23:39:06,611 DEBUG   start browsing 10 time and store to file CNN_10
+2015-05-30 23:39:18,407 DEBUG   done browsing 10 time and store to file CNN_10
+2015-05-30 23:39:20,522 DEBUG   done terminating mitmproxy
+2015-05-30 23:39:22,525 DEBUG   start running mitmproxy
+2015-05-30 23:39:22,525 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_11 10""
+2015-05-30 23:39:25,529 DEBUG successfully run mitmproxy with pid 9947 
+2015-05-30 23:39:25,530 DEBUG   start browsing 11 time and store to file CNN_11
+2015-05-30 23:39:38,983 DEBUG   done browsing 11 time and store to file CNN_11
+2015-05-30 23:39:41,101 DEBUG   done terminating mitmproxy
+2015-05-30 23:39:43,104 DEBUG   start running mitmproxy
+2015-05-30 23:39:43,104 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_12 10""
+2015-05-30 23:39:46,109 DEBUG successfully run mitmproxy with pid 10067 
+2015-05-30 23:39:46,109 DEBUG   start browsing 12 time and store to file CNN_12
+2015-05-30 23:40:48,558 ERROR error [CNN_12] in repeatedVisitWebPage reason: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///tmp/tmpMdUxbA/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:8598)
+    at WebLoadingListener/e (file:///tmp/tmpMdUxbA/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4712)
+    at WebLoadingListener/< (file:///tmp/tmpMdUxbA/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:4720)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmpMdUxbA/webdriver-py-profilecopy/extensions/fxdriver@googlecode.com/components/driver-component.js:603). start cleaning states...
+2015-05-30 23:40:49,493 DEBUG   [IN EXCEPTION HANDLER] done closing current tab
+2015-05-30 23:40:51,607 DEBUG   [IN EXCEPTION HANDLER] done terminating mitmproxy
+2015-05-30 23:40:53,611 DEBUG   start running mitmproxy
+2015-05-30 23:40:53,611 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_13 10""
+2015-05-30 23:40:56,616 DEBUG successfully run mitmproxy with pid 10235 
+2015-05-30 23:40:56,616 DEBUG   start browsing 13 time and store to file CNN_13
+2015-05-30 23:41:27,497 DEBUG   done browsing 13 time and store to file CNN_13
+2015-05-30 23:41:29,609 DEBUG   done terminating mitmproxy
+2015-05-30 23:41:31,611 DEBUG   start running mitmproxy
+2015-05-30 23:41:31,611 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_14 10""
+2015-05-30 23:41:34,616 DEBUG successfully run mitmproxy with pid 10444 
+2015-05-30 23:41:34,616 DEBUG   start browsing 14 time and store to file CNN_14
+2015-05-30 23:41:49,200 DEBUG   done browsing 14 time and store to file CNN_14
+2015-05-30 23:41:51,296 DEBUG   done terminating mitmproxy
+2015-05-31 00:01:40,546 DEBUG repated visit http://www.cnn.com for 15 times with proxy
+2015-05-31 00:01:40,547 DEBUG Start visiting web page http://www.cnn.com for 15 times...
+2015-05-31 00:01:42,397 DEBUG   start running mitmproxy
+2015-05-31 00:01:42,398 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com none ./logs CNN_0 10""
+2015-05-31 00:01:45,407 DEBUG successfully run mitmproxy with pid 10920 
+2015-05-31 00:01:45,407 DEBUG   start browsing 0 time and store to file CNN_0
+2015-05-31 00:49:40,059 DEBUG create dependency graph for http://www.cnn.com with timeout 15
+2015-05-31 00:50:17,980 DEBUG create dependency graph for http://www.cnn.com with timeout 15
+2015-05-31 00:50:17,980 DEBUG Start create ObjectDependecy traces for website:http://www.cnn.com with 7 items
+2015-05-31 00:50:21,151 DEBUG Start browsing http://www.cnn.com with c as suspended URL and store the requests at CNN_1
+2015-05-31 00:50:21,151 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com c ./logs CNN_1 15""
+2015-05-31 00:50:24,157 DEBUG successfully run mitmproxy with pid 12480 
+2015-05-31 00:50:24,158 DEBUG   done starting mitmproxy
+2015-05-31 00:50:55,813 DEBUG   done browsing http://www.cnn.com with c as suspended URL and store the requests at CNN_1
+2015-05-31 00:50:57,997 DEBUG   done terminating mitmproxy
+2015-05-31 00:50:59,998 DEBUG   successfully collects 19217 bytes requests
+2015-05-31 00:50:59,998 DEBUG 
+
+2015-05-31 00:50:59,998 DEBUG Start browsing http://www.cnn.com with n as suspended URL and store the requests at CNN_2
+2015-05-31 00:50:59,999 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com n ./logs CNN_2 15""
+2015-05-31 00:51:03,001 DEBUG successfully run mitmproxy with pid 12811 
+2015-05-31 00:51:03,001 DEBUG   done starting mitmproxy
+2015-05-31 00:51:16,969 DEBUG   done browsing http://www.cnn.com with n as suspended URL and store the requests at CNN_2
+2015-05-31 00:51:19,147 DEBUG   done terminating mitmproxy
+2015-05-31 00:51:21,147 DEBUG   successfully collects 6089 bytes requests
+2015-05-31 00:51:21,147 DEBUG 
+
+2015-05-31 00:51:21,148 DEBUG Start browsing http://www.cnn.com with n as suspended URL and store the requests at CNN_3
+2015-05-31 00:51:21,148 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com n ./logs CNN_3 15""
+2015-05-31 00:51:24,152 DEBUG successfully run mitmproxy with pid 12944 
+2015-05-31 00:51:24,153 DEBUG   done starting mitmproxy
+2015-05-31 00:52:27,847 DEBUG   done browsing http://www.cnn.com with n as suspended URL and store the requests at CNN_3
+2015-05-31 00:52:29,993 DEBUG   done terminating mitmproxy
+2015-05-31 00:52:31,993 DEBUG   successfully collects 8736 bytes requests
+2015-05-31 00:52:31,994 DEBUG 
+
+2015-05-31 00:52:31,994 DEBUG Start browsing http://www.cnn.com with H as suspended URL and store the requests at CNN_4
+2015-05-31 00:52:31,994 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com H ./logs CNN_4 15""
+2015-05-31 00:52:34,996 DEBUG successfully run mitmproxy with pid 13140 
+2015-05-31 00:52:34,998 DEBUG   done starting mitmproxy
+2015-05-31 00:52:35,000 ERROR error in createObjectDependecyExtractionTraces[H] reason: [Errno 111] Connection refused
+2015-05-31 00:54:14,753 DEBUG create dependency graph for http://www.cnn.com/ with timeout 15
+2015-05-31 00:54:14,753 DEBUG Start create ObjectDependecy traces for website:http://www.cnn.com/ with 7 items
+2015-05-31 00:54:24,980 DEBUG create dependency graph for http://www.cnn.com/ with timeout 15
+2015-05-31 00:54:24,980 DEBUG Start create ObjectDependecy traces for website:http://www.cnn.com/ with 7 items
+2015-05-31 00:54:28,247 DEBUG Start browsing http://www.cnn.com/ with c as suspended URL and store the requests at CNN_1
+2015-05-31 00:54:28,248 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:54:31,255 ERROR failed to run mitmproxy 1
+2015-05-31 00:54:31,255 ERROR failed to run mitmproxy, do it again... [1] 
+2015-05-31 00:54:31,256 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:54:34,257 ERROR failed to run mitmproxy 1
+2015-05-31 00:54:34,257 ERROR failed to run mitmproxy, do it again... [2] 
+2015-05-31 00:54:34,258 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:54:37,260 ERROR failed to run mitmproxy 1
+2015-05-31 00:54:37,260 ERROR failed to run mitmproxy, do it again... [3] 
+2015-05-31 00:54:37,260 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:54:40,262 ERROR failed to run mitmproxy 1
+2015-05-31 00:54:40,263 ERROR failed to run mitmproxy, do it again... [4] 
+2015-05-31 00:54:40,263 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:54:43,265 ERROR failed to run mitmproxy 1
+2015-05-31 00:54:43,265 ERROR failed to run mitmproxy, do it again... [5] 
+2015-05-31 00:54:43,266 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:54:46,267 ERROR failed to run mitmproxy 1
+2015-05-31 00:54:46,268 ERROR failed to run mitmproxy, do it again... [6] 
+2015-05-31 00:54:46,268 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:54:49,270 ERROR failed to run mitmproxy 1
+2015-05-31 00:54:49,270 ERROR failed to run mitmproxy, do it again... [7] 
+2015-05-31 00:54:49,270 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:54:52,272 ERROR failed to run mitmproxy 1
+2015-05-31 00:54:52,272 ERROR failed to run mitmproxy, do it again... [8] 
+2015-05-31 00:54:52,273 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:54:55,274 ERROR failed to run mitmproxy 1
+2015-05-31 00:54:55,274 ERROR failed to run mitmproxy, do it again... [9] 
+2015-05-31 00:54:55,275 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:54:58,276 ERROR failed to run mitmproxy 1
+2015-05-31 00:54:58,276 ERROR failed to run mitmproxy, do it again... [10] 
+2015-05-31 00:54:58,277 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:01,278 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:01,278 ERROR failed to run mitmproxy, do it again... [11] 
+2015-05-31 00:55:01,279 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:04,280 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:04,281 ERROR failed to run mitmproxy, do it again... [12] 
+2015-05-31 00:55:04,281 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:07,283 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:07,283 ERROR failed to run mitmproxy, do it again... [13] 
+2015-05-31 00:55:07,283 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:10,285 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:10,285 ERROR failed to run mitmproxy, do it again... [14] 
+2015-05-31 00:55:10,286 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:13,287 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:13,288 ERROR failed to run mitmproxy, do it again... [15] 
+2015-05-31 00:55:13,288 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:16,290 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:16,290 ERROR failed to run mitmproxy, do it again... [16] 
+2015-05-31 00:55:16,290 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:19,292 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:19,293 ERROR failed to run mitmproxy, do it again... [17] 
+2015-05-31 00:55:19,293 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:22,295 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:22,295 ERROR failed to run mitmproxy, do it again... [18] 
+2015-05-31 00:55:22,295 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:25,297 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:25,298 ERROR failed to run mitmproxy, do it again... [19] 
+2015-05-31 00:55:25,298 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:28,300 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:28,300 ERROR failed to run mitmproxy, do it again... [20] 
+2015-05-31 00:55:28,301 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:31,307 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:31,307 ERROR failed to run mitmproxy, do it again... [21] 
+2015-05-31 00:55:31,308 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:34,310 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:34,310 ERROR failed to run mitmproxy, do it again... [22] 
+2015-05-31 00:55:34,310 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:37,312 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:37,312 ERROR failed to run mitmproxy, do it again... [23] 
+2015-05-31 00:55:37,313 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:40,314 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:40,314 ERROR failed to run mitmproxy, do it again... [24] 
+2015-05-31 00:55:40,315 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:43,316 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:43,317 ERROR failed to run mitmproxy, do it again... [25] 
+2015-05-31 00:55:43,317 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:46,319 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:46,319 ERROR failed to run mitmproxy, do it again... [26] 
+2015-05-31 00:55:46,320 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:49,321 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:49,322 ERROR failed to run mitmproxy, do it again... [27] 
+2015-05-31 00:55:49,322 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:52,324 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:52,325 ERROR failed to run mitmproxy, do it again... [28] 
+2015-05-31 00:55:52,325 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:55,327 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:55,327 ERROR failed to run mitmproxy, do it again... [29] 
+2015-05-31 00:55:55,328 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:55:58,330 ERROR failed to run mitmproxy 1
+2015-05-31 00:55:58,330 ERROR failed to run mitmproxy, do it again... [30] 
+2015-05-31 00:55:58,331 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:56:01,332 ERROR failed to run mitmproxy 1
+2015-05-31 00:56:01,333 ERROR failed to run mitmproxy, do it again... [31] 
+2015-05-31 00:56:01,333 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:56:04,335 ERROR failed to run mitmproxy 1
+2015-05-31 00:56:04,335 ERROR failed to run mitmproxy, do it again... [32] 
+2015-05-31 00:56:04,336 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:56:07,825 DEBUG create dependency graph for http://www.cnn.com/ with timeout 15
+2015-05-31 00:56:07,826 DEBUG Start create ObjectDependecy traces for website:http://www.cnn.com/ with 7 items
+2015-05-31 00:56:11,185 DEBUG Start browsing http://www.cnn.com/ with c as suspended URL and store the requests at CNN_1
+2015-05-31 00:56:11,186 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:56:14,192 ERROR failed to run mitmproxy 1
+2015-05-31 00:56:14,193 ERROR failed to run mitmproxy, do it again... [1] 
+2015-05-31 00:56:14,193 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:56:17,195 ERROR failed to run mitmproxy 1
+2015-05-31 00:56:17,195 ERROR failed to run mitmproxy, do it again... [2] 
+2015-05-31 00:56:17,196 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:56:20,197 ERROR failed to run mitmproxy 1
+2015-05-31 00:56:20,198 ERROR failed to run mitmproxy, do it again... [3] 
+2015-05-31 00:56:20,198 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:56:23,200 ERROR failed to run mitmproxy 1
+2015-05-31 00:56:23,200 ERROR failed to run mitmproxy, do it again... [4] 
+2015-05-31 00:56:23,200 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:56:26,202 ERROR failed to run mitmproxy 1
+2015-05-31 00:56:26,202 ERROR failed to run mitmproxy, do it again... [5] 
+2015-05-31 00:56:26,203 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:56:29,205 ERROR failed to run mitmproxy 1
+2015-05-31 00:56:29,205 ERROR failed to run mitmproxy, do it again... [6] 
+2015-05-31 00:56:29,206 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:56:32,207 ERROR failed to run mitmproxy 1
+2015-05-31 00:56:32,208 ERROR failed to run mitmproxy, do it again... [7] 
+2015-05-31 00:56:32,208 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:56:35,210 ERROR failed to run mitmproxy 1
+2015-05-31 00:56:35,210 ERROR failed to run mitmproxy, do it again... [8] 
+2015-05-31 00:56:35,210 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:57:46,800 DEBUG create dependency graph for http://www.cnn.com/ with timeout 15
+2015-05-31 00:57:46,800 DEBUG Start create ObjectDependecy traces for website:http://www.cnn.com/ with 7 items
+2015-05-31 00:57:50,136 DEBUG Start browsing http://www.cnn.com/ with c as suspended URL and store the requests at CNN_1
+2015-05-31 00:57:50,137 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:57:53,144 ERROR failed to run mitmproxy 1
+2015-05-31 00:57:53,144 ERROR failed to run mitmproxy, do it again... [1] 
+2015-05-31 00:57:53,144 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:57:56,146 ERROR failed to run mitmproxy 1
+2015-05-31 00:57:56,146 ERROR failed to run mitmproxy, do it again... [2] 
+2015-05-31 00:57:56,147 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:57:59,149 ERROR failed to run mitmproxy 1
+2015-05-31 00:57:59,149 ERROR failed to run mitmproxy, do it again... [3] 
+2015-05-31 00:57:59,149 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:02,151 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:02,151 ERROR failed to run mitmproxy, do it again... [4] 
+2015-05-31 00:58:02,152 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:05,153 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:05,154 ERROR failed to run mitmproxy, do it again... [5] 
+2015-05-31 00:58:05,154 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:08,156 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:08,157 ERROR failed to run mitmproxy, do it again... [6] 
+2015-05-31 00:58:08,157 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:11,159 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:11,160 ERROR failed to run mitmproxy, do it again... [7] 
+2015-05-31 00:58:11,160 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:14,162 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:14,162 ERROR failed to run mitmproxy, do it again... [8] 
+2015-05-31 00:58:14,163 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:17,164 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:17,165 ERROR failed to run mitmproxy, do it again... [9] 
+2015-05-31 00:58:17,165 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:20,167 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:20,167 ERROR failed to run mitmproxy, do it again... [10] 
+2015-05-31 00:58:20,168 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:23,169 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:23,169 ERROR failed to run mitmproxy, do it again... [11] 
+2015-05-31 00:58:23,170 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:26,171 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:26,172 ERROR failed to run mitmproxy, do it again... [12] 
+2015-05-31 00:58:26,172 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:29,174 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:29,175 ERROR failed to run mitmproxy, do it again... [13] 
+2015-05-31 00:58:29,175 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:32,177 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:32,177 ERROR failed to run mitmproxy, do it again... [14] 
+2015-05-31 00:58:32,177 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:35,179 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:35,180 ERROR failed to run mitmproxy, do it again... [15] 
+2015-05-31 00:58:35,180 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:38,182 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:38,182 ERROR failed to run mitmproxy, do it again... [16] 
+2015-05-31 00:58:38,182 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:41,184 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:41,184 ERROR failed to run mitmproxy, do it again... [17] 
+2015-05-31 00:58:41,185 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:44,188 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:44,188 ERROR failed to run mitmproxy, do it again... [18] 
+2015-05-31 00:58:44,188 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:47,190 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:47,190 ERROR failed to run mitmproxy, do it again... [19] 
+2015-05-31 00:58:47,191 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:50,196 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:50,196 ERROR failed to run mitmproxy, do it again... [20] 
+2015-05-31 00:58:50,197 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:53,204 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:53,204 ERROR failed to run mitmproxy, do it again... [21] 
+2015-05-31 00:58:53,204 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:56,206 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:56,206 ERROR failed to run mitmproxy, do it again... [22] 
+2015-05-31 00:58:56,207 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:58:59,209 ERROR failed to run mitmproxy 1
+2015-05-31 00:58:59,209 ERROR failed to run mitmproxy, do it again... [23] 
+2015-05-31 00:58:59,209 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:59:02,211 ERROR failed to run mitmproxy 1
+2015-05-31 00:59:02,211 ERROR failed to run mitmproxy, do it again... [24] 
+2015-05-31 00:59:02,212 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:59:05,214 ERROR failed to run mitmproxy 1
+2015-05-31 00:59:05,214 ERROR failed to run mitmproxy, do it again... [25] 
+2015-05-31 00:59:05,215 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:59:08,217 ERROR failed to run mitmproxy 1
+2015-05-31 00:59:08,217 ERROR failed to run mitmproxy, do it again... [26] 
+2015-05-31 00:59:08,217 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:59:11,220 ERROR failed to run mitmproxy 1
+2015-05-31 00:59:11,221 ERROR failed to run mitmproxy, do it again... [27] 
+2015-05-31 00:59:11,221 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:59:14,223 ERROR failed to run mitmproxy 1
+2015-05-31 00:59:14,223 ERROR failed to run mitmproxy, do it again... [28] 
+2015-05-31 00:59:14,223 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:59:17,225 ERROR failed to run mitmproxy 1
+2015-05-31 00:59:17,226 ERROR failed to run mitmproxy, do it again... [29] 
+2015-05-31 00:59:17,226 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:59:20,228 ERROR failed to run mitmproxy 1
+2015-05-31 00:59:20,228 ERROR failed to run mitmproxy, do it again... [30] 
+2015-05-31 00:59:20,229 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""
+2015-05-31 00:59:23,230 ERROR failed to run mitmproxy 1
+2015-05-31 00:59:23,231 ERROR failed to run mitmproxy, do it again... [31] 
+2015-05-31 00:59:23,231 DEBUG prepare to run mitmproxy mitmproxy -s ""./proxy-script.py http://www.cnn.com/ c ./logs CNN_1 15""

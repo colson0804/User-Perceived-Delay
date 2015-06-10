@@ -1,0 +1,4 @@
+{"files" : [{"rtt":0.001307,
+"size":0,
+"num urls":8,
+"latency":1.922986}] }
