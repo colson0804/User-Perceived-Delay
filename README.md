@@ -60,7 +60,7 @@ python LogAnalysis.py -f analyzebrolog -fu http://www.wsj.com/ -lu http://video-
   - Run Automate.py to automate the above steps
   - After running Automate.py once, you may comment out the automate_driver function because the dependency graph will already have been generated
   - The automate_analyze script will continue to open a website and collect data on its latency, rtt, and url size
-  - The script will run five trials for each iteration and will output the average of the 5 trials into a text file in a json format. These files are saved in the equalbd or diffbd directory. You may change what directory the files are saved in and what their title is at line ************ of Automate.py
+  - The script will run five trials for each iteration and will output the average of the 5 trials into a text file in a json format. These files are saved in the equalbd or diffbd directory. You may change what directory the files are saved in and what their title is at line 59 of Automate.py that says output = open("%dkb_output.txt" % bandwidth, "a+")
   - In order to change the bandwidth automatically between each iteration, input the bandwidths you want (in kb) into the bandwidth array at the bottom of the file
 
 ## Graphing and Regression **** Can you fill this in Craig?
