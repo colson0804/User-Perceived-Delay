@@ -37,21 +37,7 @@ def regression(json_data, bandwidth):
     for ele in data[1:]:
         X = sm.add_constant(np.column_stack((ele, X)))
     results = sm.OLS(z, X).fit()
-    print results.summary()
-
-     # prstd, iv_l, iv_u = wls_prediction_std(results)
-
-    # plt.scatter(r, z)
-    # #plt.show()
-    # plt.xlim(r.min(), r.max())
-    # plt.xlabel('round trip time')
-    # plt.ylabel('Latency')
-    # X_plot = np.linspace(r.min() - .005, r.max() + .005, 100)
-    # plt.plot(X_plot, X_plot*results.params[1] + results.params[0])
-    # plt.plot(r, iv_l, 'r--')
-    # plt.plot(r, iv_u, 'r--')    
-
-    plt.show()
+    print results.summary() 
 
     
 

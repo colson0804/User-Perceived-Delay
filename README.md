@@ -63,8 +63,8 @@ python LogAnalysis.py -f analyzebrolog -fu http://www.wsj.com/ -lu http://video-
   - The script will run five trials for each iteration and will output the average of the 5 trials into a text file in a json format. These files are saved in the equalbd or diffbd directory. You may change what directory the files are saved in and what their title is at line 59 of Automate.py that says output = open("%dkb_output.txt" % bandwidth, "a+")
   - In order to change the bandwidth automatically between each iteration, input the bandwidths you want (in kb) into the bandwidth array at the bottom of the file
 
-## Graphing and Regression
-1. Run the plot.py function within the equalbd or diffbd in order to graph your data and perform a regression on it. Furthermore, calling the pad.py function will pad your data so that each file has an equal number of rtt values; this is only a problem if some of your essential urls are unstable and are not found upon each request.
+## Regression
+Run the plot.py function within the diffbd in order to perform a regression on the data. This collects rtt's, bandwidths, sizes, and latencies from each of the text files in the directory. We multiply each of the rtt's by their sizes and store them in an array. We then use the statsmodel package to perform a linear regression of rtt-by-size and bandwidth in correlation with latency. Statsmodel then prints out information about the regression, including the least square regression line, the upper and lower bounds of the confidence interval, and the R-squared value for the regression.
  
 ## Naive Bayes 
 1. Run the bayes.py function. It will automatically load the data in ./diffbd, including all the json and txt files. The output would be the overall accuracy as well as precision and recall for each phase.
