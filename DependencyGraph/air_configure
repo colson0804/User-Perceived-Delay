@@ -1,0 +1,5 @@
+{"firefoxProfilePathWithoutProxy":"/home/ubuntu/.mozilla/firefox/8ld7gd0a.withoutProxy",
+"firefoxProfilePathWithProxy":"/home/ubuntu/.mozilla/firefox/asfsmmgj.withProxy",
+ "mitmproxyScriptPath": "./proxy-script.py",
+ "logDir": "./logs"
+}
