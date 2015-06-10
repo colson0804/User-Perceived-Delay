@@ -9,8 +9,7 @@ def updateJsonFile(json_file, data):
     jsonFile.close()
 
 def convert():
-    for ii in os.listdir(os.getcwd()):
-        i = os.path.join(ii, "diffbd")
+    for i in os.listdir(os.getcwd()):
 	if i.endswith(".txt"):
             f = open(i, "r")
             remove_extension = string.strip(i, ".txt")
