@@ -63,7 +63,7 @@ python LogAnalysis.py -f analyzebrolog -fu http://www.wsj.com/ -lu http://video-
   - The script will run five trials for each iteration and will output the average of the 5 trials into a text file in a json format. These files are saved in the equalbd or diffbd directory. You may change what directory the files are saved in and what their title is at line 59 of Automate.py that says output = open("%dkb_output.txt" % bandwidth, "a+")
   - In order to change the bandwidth automatically between each iteration, input the bandwidths you want (in kb) into the bandwidth array at the bottom of the file
 
-## Graphing and Regression **** Can you fill this in Craig?
+## Graphing and Regression
 1. Run the plot.py function within the equalbd or diffbd in order to graph your data and perform a regression on it. Furthermore, calling the pad.py function will pad your data so that each file has an equal number of rtt values; this is only a problem if some of your essential urls are unstable and are not found upon each request.
  
 ## Naive Bayes 
