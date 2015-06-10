@@ -18,10 +18,7 @@ def regression(json_data, bandwidth):
     latency = []
     rtt_by_size = []
 
-    # RTT object 
-    # rtt = {[avg_rtt1]: [rtt1, rtt2, rtt3, ..., rtcx],
-    #         [avg_rtt2]: [...]}
-
+    ## Create arrays of latency values and rtt * size values
     for i in range(0, len(json_data)):
         latency.append(json_data[i]["latency"])
         rtt_by_size.append(json_data[i]["size"] * json_data[i]["rtt"])
@@ -32,6 +29,7 @@ def regression(json_data, bandwidth):
 
     data = np.array([rtt_by_size, y])
 
+    ## Perform a linear regression
     ones = np.ones(len(data[0]))
     X = sm.add_constant(np.column_stack((data[0], ones)))
     for ele in data[1:]:
@@ -43,6 +41,7 @@ def regression(json_data, bandwidth):
 
 if __name__ == '__main__':
 
+    ## Read bandwidth, rtt, size, and latency data from all of the files in current directory
     bandwidth = []
     json_data = []
     a = re.compile(".*\.txt$")
