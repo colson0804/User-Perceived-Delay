@@ -5,16 +5,20 @@ import json
 import glob
 
 def discretize(latency):
-	if latency < 2.0:
+	if latency < 5.0:
 		return str(0)
-	elif latency < 4.0:
+	elif latency < 10.0:
 		return str(1)
+	else:
+		return str(2)
+	"""
 	elif latency < 6.0:
 		return str(2)
 	elif latency < 8.0:
 		return str(3)
 	else:
 		return str(4)
+	"""
 def calc(phase):
 	num_of_0s = 0
 	correct = 0
@@ -29,6 +33,8 @@ def calc(phase):
 	for k in target:
 		if k == phase:
 			actual_0s += 1
+	if actual_0s == 0:
+		return 0
 	return (correct/float(num_of_0s), correct/float(actual_0s))
 
 
@@ -82,7 +88,7 @@ gnb = GaussianNB()
 y_pred = gnb.fit(data, target).predict(data)
 
 print("overall precision:   %f " % (1 - (float(((target != y_pred).sum()))/float(num_of_data))))
-phase = 4
+phase = 0
 print ("precision and recall on phase %d:" % phase )
 print calc(phase)
 
