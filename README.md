@@ -12,8 +12,9 @@ The proxy you will use.
 pip install mitmproxy
 ```
 
-3. Network Link Conditioner: YANG PLEASE FILL THIS IN
-Control the bandwidth and other network condition.Download at https://developer.apple.com/downloads/index.action?q=Network%20Link%20Conditioner#
+3. Network Link Conditioner: 
+You will need an Apple developer account to download it. Download at https://developer.apple.com/downloads/index.action?q=Network%20Link%20Conditioner#
+Control the bandwidth and other network condition.
 
 4. Bro:
 Monitor all the traffic.
