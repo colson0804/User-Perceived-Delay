@@ -66,5 +66,8 @@ python LogAnalysis.py -f analyzebrolog -fu http://www.wsj.com/ -lu http://video-
 ## Graphing and Regression
 1. Run the plot.py function within the equalbd or diffbd in order to graph your data and perform a regression on it. Furthermore, calling the pad.py function will pad your data so that each file has an equal number of rtt values; this is only a problem if some of your essential urls are unstable and are not found upon each request.
  
-## Naive Bayes ******* Can you fill this in Yang?
+## Naive Bayes 
+1. Run the bayes.py function. It will automatically load the data in ./diffbd, including all the json and txt files. The output would be the overall accuracy as well as precision and recall for each phase.
+
+
 
