@@ -17,52 +17,55 @@ import argparse
 import time
 
 def automate_driver(file_name):
+    # runs firefox-driver.py from the shell to query a given url 15 times
     driver = shlex.split("python firefox-driver.py -f proxyvisit -fu http://www.wsj.com -t 15 -c air_configure -p WSJ")
     if subprocess.call(driver) != 0:
     	sys.exit()
-    
+
+    # runs LogAnalysis.py from the shell to get the common urls from the firefox-driver output
     commonurl = shlex.split("python LogAnalysis.py -f getcommonurl -d logs -p WSJ -ho wsjHostList")
     subprocess.call(commonurl)
 
+    # runs LogAnalysis.py from the shell to generate a dependency graph from the common urls
     graph = shlex.split("python LogAnalysis.py -f generategraph -p WSJ -d ./logs/ -fu http://www.wsj.com/ -go wsjGraph -lu http://video-api.wsj.com/api-video/player/v2/css/wsjvideo.min.css -c wsjHostList")
     subprocess.call(graph)
 
 def automate_analyze(host_name, graph_name, last_url, bandwidth):
     # setting up bandwidth...
     bandwidth_in_bits = bandwidth * 8
-    dnctl = shlex.split("sudo wondershaper -a eth0 -d %d -u 512" % bandwidth_in_bits)
-    subprocess.call(dnctl)
+    #dnctl = shlex.split("sudo wondershaper -a eth0 -d %d -u 512" % bandwidth_in_bits)
+    #subproces:s.call(dnctl)
     #dummynet = shlex.split("echo \"dummynet in all pipe 1\" >> /etc/pf.conf")
     #subprocess.call(dummynet)
 
 
-    # collecting data...
-    listen = shlex.split("sudo /usr/local/bro/bin/bro -i eth0 -C broscript/httpinfo.bro")
-    f = open("broscript/test.txt", "w")
-    background = subprocess.Popen(listen, stdout = f)
-
-    url = "http://www.wsj.com/"
-   
+    # define url to query and firefox profile to use
+    url = "http://www.wsj.com/"   
     profile = webdriver.FirefoxProfile("/home/yanghu/.mozilla/firefox/cv0k6zw7.default")
-    browser = webdriver.Firefox(profile)
-        
-    #profile = webdriver.FirefoxProfile("/home/yanghu/.mozilla/firefox/cv0k6zw7.default")
-    openNewTab(browser)
-    browser.get(url)
 
-    time.sleep(1)
-    background.terminate()
+    # run the data 5 times and collect the average from all 5 trials
+    for it in range(1,6):
+	f = open("broscript/test.txt", "w")
+        listen = shlex.split("sudo /usr/local/bro/bin/bro -i eth0 -C broscript/httpinfo.bro")
+        browser = webdriver.Firefox(profile)
+        background = subprocess.Popen(listen, stdout = f)
+
+        openNewTab(browser)
+    	browser.get(url)
+
+    	time.sleep(1)
+    	background.terminate()
     #f.close()
-    closeCurrentTab(browser)
+    	closeCurrentTab(browser)
     #broweser.quit()   
-    output = open("%dkb_output.txt" % bandwidth, "w")
-    analyze = shlex.split("python LogAnalysis.py -f analyzebrolog -fu http://www.wsj.com/ -lu " + last_url + " -gi " + graph_name + " -c " + host_name + " -b broscript/test.txt")
-    subprocess.call(analyze, stderr=output)
+    	output = open("%dkb_output.txt" % bandwidth, "a+")
+    	analyze = shlex.split("python LogAnalysis.py -f analyzebrolog -fu http://www.wsj.com/ -lu " + last_url + " -gi " + graph_name + " -c " + host_name + " -b broscript/test.txt")
+    	subprocess.call(analyze, stderr=output)
+        f.close()
+        output.close()
     
 
     browser.quit()
-    f.close()
-    output.close()
     clearm = shlex.split("sudo wondershaper -c -a eth0")
     subprocess.call(clearm)
 
@@ -120,7 +123,7 @@ if __name__ == '__main__':
     #file_name = sys.argv[1]
     host_name = sys.argv[1]
     graph_name = sys.argv[2]
-    last_url = "http://video-api.wsj.com/api-video/player/v2/css/wsjvideo.min.css/"
+    last_url = "http://video-api.wsj.com/api-video/player/v2/css/wsjvideo.min.css"
     
     #automate_driver(file_name)
     

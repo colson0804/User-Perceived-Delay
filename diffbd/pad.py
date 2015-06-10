@@ -2,6 +2,7 @@ import os
 import json
 
 def getNumUrls():
+    # get the maximum number of essential urls stored over all the file
     max_num_urls = 0
     for i in os.listdir(os.getcwd()):
         if i.endswith(".txt"):
@@ -20,6 +21,7 @@ def updateJsonFile(json_file, data):
     jsonFile.close()
 
 def pad():
+    # set all the files to have the same number of essential urls by padding the data if a file doesn't have enough essential urls
     max_num_urls = getNumUrls()
     for i in os.listdir(os.getcwd()):
         if i.endswith(".txt"):
